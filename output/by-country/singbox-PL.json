@@ -6,26 +6,30 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇱 PL 01 - xiaohe",
-        "🇵🇱 PL 02 - xiaohe",
-        "🇵🇱 PL 03 - xiaohe",
-        "🇵🇱 PL 04 - xiaohe",
-        "🇵🇱 PL 05 - xiaohe",
-        "🇵🇱 PL 06 - xiaohe",
-        "🇵🇱 PL 07 - xiaohe"
+        "🇵🇱 PL 01 - Tami",
+        "🇵🇱 PL 02 - Tami",
+        "🇵🇱 PL 03 - Tami",
+        "🇵🇱 PL 04 - Tami",
+        "🇵🇱 PL 05 - Tami",
+        "🇵🇱 PL 06 - Tami",
+        "🇵🇱 PL 07 - Tami",
+        "🇵🇱 PL 08 - Tami",
+        "🇵🇱 PL 09 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL 01 - xiaohe",
-        "🇵🇱 PL 02 - xiaohe",
-        "🇵🇱 PL 03 - xiaohe",
-        "🇵🇱 PL 04 - xiaohe",
-        "🇵🇱 PL 05 - xiaohe",
-        "🇵🇱 PL 06 - xiaohe",
-        "🇵🇱 PL 07 - xiaohe"
+        "🇵🇱 PL 01 - Tami",
+        "🇵🇱 PL 02 - Tami",
+        "🇵🇱 PL 03 - Tami",
+        "🇵🇱 PL 04 - Tami",
+        "🇵🇱 PL 05 - Tami",
+        "🇵🇱 PL 06 - Tami",
+        "🇵🇱 PL 07 - Tami",
+        "🇵🇱 PL 08 - Tami",
+        "🇵🇱 PL 09 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
