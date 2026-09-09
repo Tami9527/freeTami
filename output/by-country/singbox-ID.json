@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - Tami"
+        "🇮🇩 ID 01 - Tami",
+        "🇮🇩 ID 02 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - Tami"
+        "🇮🇩 ID 01 - Tami",
+        "🇮🇩 ID 02 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
