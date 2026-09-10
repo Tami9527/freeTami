@@ -21,7 +21,7 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 192.145.31.5
+  servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 03 - Tami
   type: vless
   server: 192.145.31.5
@@ -34,7 +34,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 192.145.31.5
+      Host: neth9.lunariai.ru
 - name: 🇧🇬 BG 04 - Tami
   type: vless
   server: 192.145.31.5
@@ -45,28 +45,6 @@ proxies:
   skip-cert-verify: true
   servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 05 - Tami
-  type: vless
-  server: 192.145.31.5
-  port: 443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: neth9.lunariai.ru
-- name: 🇧🇬 BG 06 - Tami
-  type: vless
-  server: 192.145.31.5
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 07 - Tami
   type: vless
   server: 192.145.31.5
   port: 8443
@@ -85,8 +63,6 @@ proxy-groups:
   - 🇧🇬 BG 03 - Tami
   - 🇧🇬 BG 04 - Tami
   - 🇧🇬 BG 05 - Tami
-  - 🇧🇬 BG 06 - Tami
-  - 🇧🇬 BG 07 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -97,7 +73,5 @@ proxy-groups:
   - 🇧🇬 BG 03 - Tami
   - 🇧🇬 BG 04 - Tami
   - 🇧🇬 BG 05 - Tami
-  - 🇧🇬 BG 06 - Tami
-  - 🇧🇬 BG 07 - Tami
 rules:
 - MATCH,PROXIES

@@ -29,34 +29,8 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 89.36.161.222
+      Host: laoye.in-gect.fun
 - name: 🇱🇻 LV 03 - Tami
-  type: vless
-  server: 89.36.161.222
-  port: 2096
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: laoye.in-gect.fun
-- name: 🇱🇻 LV 04 - Tami
-  type: vless
-  server: 89.36.161.222
-  port: 2096
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: laoye.in-gect.fun
-- name: 🇱🇻 LV 05 - Tami
   type: vless
   server: 89.36.161.222
   port: 2096
@@ -77,8 +51,6 @@ proxy-groups:
   - 🇱🇻 LV 01 - Tami
   - 🇱🇻 LV 02 - Tami
   - 🇱🇻 LV 03 - Tami
-  - 🇱🇻 LV 04 - Tami
-  - 🇱🇻 LV 05 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -87,7 +59,5 @@ proxy-groups:
   - 🇱🇻 LV 01 - Tami
   - 🇱🇻 LV 02 - Tami
   - 🇱🇻 LV 03 - Tami
-  - 🇱🇻 LV 04 - Tami
-  - 🇱🇻 LV 05 - Tami
 rules:
 - MATCH,PROXIES
