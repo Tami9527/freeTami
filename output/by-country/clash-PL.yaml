@@ -5,6 +5,26 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - Tami
+  type: ss
+  server: 194.61.121.93
+  port: 7538
+  cipher: chacha20-ietf-poly1305
+  password: U9YAoqBgg5VyGBc6vQv1sN
+  udp: true
+- name: 🇵🇱 PL 02 - Tami
+  type: vless
+  server: 178.95.170.115
+  port: 2087
+  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /4bc027a44532
+    headers:
+      Host: 178.95.170.115
+- name: 🇵🇱 PL 03 - Tami
   type: vless
   server: 94.183.209.58
   port: 443
@@ -17,26 +37,6 @@ proxies:
     path: /
     headers:
       Host: pl2.lckdwn.ru
-- name: 🇵🇱 PL 02 - Tami
-  type: vless
-  server: 94.183.209.43
-  port: 443
-  uuid: 5e7ecc47-e424-4653-876e-c7515a2c82b4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.209.43
-- name: 🇵🇱 PL 03 - Tami
-  type: ss
-  server: 64.176.73.160
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: VJtsgllDDJfNmaTe
-  udp: true
 - name: 🇵🇱 PL 04 - Tami
   type: vless
   server: 94.183.209.59
@@ -52,11 +52,24 @@ proxies:
       Host: 94.183.209.59
 - name: 🇵🇱 PL 05 - Tami
   type: ss
-  server: 194.61.121.93
-  port: 7538
+  server: 64.176.73.160
+  port: 8388
   cipher: chacha20-ietf-poly1305
-  password: U9YAoqBgg5VyGBc6vQv1sN
+  password: VJtsgllDDJfNmaTe
   udp: true
+- name: 🇵🇱 PL 06 - Tami
+  type: vless
+  server: 178.95.170.115
+  port: 2087
+  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /4bc027a44532
+    headers:
+      Host: 178.95.170.115
 proxy-groups:
 - name: PROXIES
   type: select
@@ -67,6 +80,7 @@ proxy-groups:
   - 🇵🇱 PL 03 - Tami
   - 🇵🇱 PL 04 - Tami
   - 🇵🇱 PL 05 - Tami
+  - 🇵🇱 PL 06 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -77,5 +91,6 @@ proxy-groups:
   - 🇵🇱 PL 03 - Tami
   - 🇵🇱 PL 04 - Tami
   - 🇵🇱 PL 05 - Tami
+  - 🇵🇱 PL 06 - Tami
 rules:
 - MATCH,PROXIES
