@@ -6,24 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 BG 01 - Tami",
-        "🇧🇬 BG 02 - Tami",
-        "🇧🇬 BG 03 - Tami",
-        "🇧🇬 BG 04 - Tami",
-        "🇧🇬 BG 05 - Tami",
-        "🇧🇬 BG 06 - Tami"
+        "🇸🇦 SA 01 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 BG 01 - Tami",
-        "🇧🇬 BG 02 - Tami",
-        "🇧🇬 BG 03 - Tami",
-        "🇧🇬 BG 04 - Tami",
-        "🇧🇬 BG 05 - Tami",
-        "🇧🇬 BG 06 - Tami"
+        "🇸🇦 SA 01 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
