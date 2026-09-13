@@ -6,19 +6,6 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - Tami
   type: vless
-  server: 198.71.191.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime06.workers.dev
-- name: 🇧🇬 BG 02 - Tami
-  type: vless
   server: 108.165.233.223
   port: 443
   uuid: 2388e166-3890-33ae-f77e-efac00000003
@@ -31,9 +18,18 @@ proxies:
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
     headers:
       Host: netlivpn4813.ddhshhshs.workers.dev
-- name: 🇧🇬 BG 03 - Tami
+- name: 🇧🇬 BG 02 - Tami
   type: vless
   server: 192.145.31.5
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 03 - Tami
+  type: vless
+  server: neth9.lunariai.ru
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
@@ -58,24 +54,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 06 - Tami
-  type: vless
-  server: neth9.lunariai.ru
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 07 - Tami
-  type: vless
-  server: 192.145.31.5
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth9.lunariai.ru
 proxy-groups:
 - name: PROXIES
   type: select
@@ -86,8 +64,6 @@ proxy-groups:
   - 🇧🇬 BG 03 - Tami
   - 🇧🇬 BG 04 - Tami
   - 🇧🇬 BG 05 - Tami
-  - 🇧🇬 BG 06 - Tami
-  - 🇧🇬 BG 07 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -98,7 +74,5 @@ proxy-groups:
   - 🇧🇬 BG 03 - Tami
   - 🇧🇬 BG 04 - Tami
   - 🇧🇬 BG 05 - Tami
-  - 🇧🇬 BG 06 - Tami
-  - 🇧🇬 BG 07 - Tami
 rules:
 - MATCH,PROXIES

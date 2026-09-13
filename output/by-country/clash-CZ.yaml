@@ -6,30 +6,32 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - Tami
   type: vless
-  server: 104.21.12.116
-  port: 8880
-  uuid: ed189537-41de-4abe-9f8b-bb75d457722d
+  server: 104.25.178.92
+  port: 443
+  uuid: d9abc6e3-83bf-4c28-ae68-72465e2abe39
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ikT-KKC25F27k-3Tehr8MC.ADE-1007.WOrKErS.DEV
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
+    path: /vl/xQhNe7rLrdM0emZlaW5LMsNwcoIgnT?ed=2560
     headers:
-      Host: lucky-cake-4f58.318-5ee.workers.dev
+      Host: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
 - name: 🇨🇿 CZ 02 - Tami
   type: vless
-  server: 172.64.32.103
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 104.21.78.9
+  port: 443
+  uuid: a8890c1b-3622-3106-c4be-d8671be32d2b
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: summer-meadow-af5b.woowoorrrkk.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /sync
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: summer-meadow-af5b.woowoorrrkk.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
