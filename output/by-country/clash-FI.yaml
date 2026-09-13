@@ -4,9 +4,17 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇷 土耳其 (Turkey) 01 - Tami
+- name: 🇫🇮 FI 01 - Tami
+  type: vless
+  server: 188.132.237.20
+  port: 2095
+  uuid: 3b9e513e-30d9-4ca8-8340-8f33fc6710de
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇮 FI 02 - Tami
   type: ss
-  server: 188.132.174.236
+  server: 65.109.215.118
   port: 1080
   cipher: chacha20-ietf-poly1305
   password: rSeYcig_XBy8q3k33NpK3A
@@ -16,12 +24,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇹🇷 土耳其 (Turkey) 01 - Tami
+  - 🇫🇮 FI 01 - Tami
+  - 🇫🇮 FI 02 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇷 土耳其 (Turkey) 01 - Tami
+  - 🇫🇮 FI 01 - Tami
+  - 🇫🇮 FI 02 - Tami
 rules:
 - MATCH,PROXIES
