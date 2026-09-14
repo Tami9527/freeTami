@@ -4,41 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - Tami
-  type: ss
-  server: 36.224.152.189
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  udp: true
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - Tami
-  type: vless
-  server: 60.248.219.78
-  port: 443
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ty986gfazs.cainiaohub.xyz
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: 60.248.219.78
-- name: 🇬🇧 英国 (United Kingdom) 03 (家宽) - Tami
-  type: vless
-  server: 45.192.224.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime17.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - Tami
+- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - Tami
   type: vless
   server: 188.114.97.6
   port: 2087
@@ -52,23 +18,57 @@ proxies:
     path: /?ed=2560
     headers:
       Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - Tami
+  type: ss
+  server: 36.224.152.189
+  port: 50099
+  cipher: chacha20-ietf-poly1305
+  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
+  udp: true
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - Tami
+  type: vless
+  server: 60.248.219.78
+  port: 443
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ty986gfazs.cainiaohub.xyz
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: 60.248.219.78
+- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - Tami
+  type: vless
+  server: 104.16.107.139
+  port: 8880
+  uuid: 3c04e891-dc32-40a3-bcd0-d5e8283a6a03
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: polished-firefly-3e2d.20-645.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - Tami
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - Tami
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - Tami
-  - 🇬🇧 英国 (United Kingdom) 03 (家宽) - Tami
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - Tami
   - 🇰🇷 韩国 (South Korea) 04 (家宽) - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - Tami
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - Tami
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - Tami
-  - 🇬🇧 英国 (United Kingdom) 03 (家宽) - Tami
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - Tami
   - 🇰🇷 韩国 (South Korea) 04 (家宽) - Tami
 rules:
 - MATCH,PROXIES

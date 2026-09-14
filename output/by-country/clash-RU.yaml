@@ -18,6 +18,13 @@ proxies:
     headers:
       Host: vms.lifetime54.workers.dev
 - name: 🇷🇺 俄罗斯 (Russia) 02 - Tami
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs=
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 03 - Tami
   type: vless
   server: 46.8.200.91
   port: 443
@@ -31,95 +38,6 @@ proxies:
     path: /casc
     headers:
       Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 03 - Tami
-  type: vless
-  server: 172.64.32.103
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 04 - Tami
-  type: vless
-  server: 104.16.174.164
-  port: 443
-  uuid: 73796e63-0000-4000-8000-000000000000
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wireguard.ahmad-kh5716.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: wireguard.ahmad-kh5716.workers.dev
-- name: 🇷🇺 俄罗斯 (Russia) 05 - Tami
-  type: vless
-  server: 188.114.97.8
-  port: 8443
-  uuid: d4d2d3f3-9dec-4e8f-8daf-145ecac96e66
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: crimson-leaf-7e45.hzhduuebfjdcb.workers.dev
-- name: 🇷🇺 俄罗斯 (Russia) 06 - Tami
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
-- name: 🇷🇺 俄罗斯 (Russia) 07 - Tami
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs=
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 08 - Tami
-  type: vless
-  server: 78.159.247.246
-  port: 443
-  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sb2.hat.onl
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: sb2.hat.onl
-- name: 🇷🇺 俄罗斯 (Russia) 09 - Tami
-  type: vless
-  server: 78.159.247.246
-  port: 443
-  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sb2.hat.onl
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: sb2.hat.onl
 proxy-groups:
 - name: PROXIES
   type: select
@@ -128,12 +46,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - Tami
   - 🇷🇺 俄罗斯 (Russia) 02 - Tami
   - 🇷🇺 俄罗斯 (Russia) 03 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 04 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 05 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 06 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 07 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 08 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 09 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -142,11 +54,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - Tami
   - 🇷🇺 俄罗斯 (Russia) 02 - Tami
   - 🇷🇺 俄罗斯 (Russia) 03 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 04 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 05 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 06 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 07 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 08 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 09 - Tami
 rules:
 - MATCH,PROXIES
