@@ -12,13 +12,6 @@ proxies:
   password: rSeYcig_XBy8q3k33NpK3A
   udp: true
 - name: 🇹🇷 土耳其 (Turkey) 02 - Tami
-  type: ss
-  server: 185.39.204.3
-  port: 8098
-  cipher: chacha20-ietf-poly1305
-  password: PluSKSrbtxTvlVv7BOUwn4
-  udp: true
-- name: 🇹🇷 土耳其 (Turkey) 03 - Tami
   type: vless
   server: shop.neexbyte.ir
   port: 8443
@@ -39,7 +32,6 @@ proxy-groups:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - Tami
   - 🇹🇷 土耳其 (Turkey) 02 - Tami
-  - 🇹🇷 土耳其 (Turkey) 03 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -47,6 +39,5 @@ proxy-groups:
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - Tami
   - 🇹🇷 土耳其 (Turkey) 02 - Tami
-  - 🇹🇷 土耳其 (Turkey) 03 - Tami
 rules:
 - MATCH,PROXIES

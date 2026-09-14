@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 SC 01 - Tami",
-        "🇸🇨 SC 02 - Tami",
-        "🇸🇨 SC 03 - Tami"
+        "🇨🇱 CL 01 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - Tami",
-        "🇸🇨 SC 02 - Tami",
-        "🇸🇨 SC 03 - Tami"
+        "🇨🇱 CL 01 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
