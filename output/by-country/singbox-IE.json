@@ -6,20 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇹 意大利 (Italy) 01 - Tami",
-        "🇮🇹 意大利 (Italy) 02 - Tami",
-        "🇮🇹 意大利 (Italy) 03 - Tami",
-        "🇮🇹 意大利 (Italy) 04 - Tami"
+        "🇮🇪 IE 01 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇹 意大利 (Italy) 01 - Tami",
-        "🇮🇹 意大利 (Italy) 02 - Tami",
-        "🇮🇹 意大利 (Italy) 03 - Tami",
-        "🇮🇹 意大利 (Italy) 04 - Tami"
+        "🇮🇪 IE 01 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
