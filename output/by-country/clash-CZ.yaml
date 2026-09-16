@@ -6,20 +6,6 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - Tami
   type: vless
-  server: 104.18.32.47
-  port: 443
-  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: ancient-heart-60c5.dpccgizieb.workers.dev
-- name: 🇨🇿 CZ 02 - Tami
-  type: vless
   server: 172.64.153.235
   port: 8443
   uuid: 656bb400-3b7a-47e3-94b0-0362f3865072
@@ -32,6 +18,19 @@ proxies:
     path: /socks5://128.140.46.169:13482
     headers:
       Host: socks5.revil-time3.workers.dev
+- name: 🇨🇿 CZ 02 - Tami
+  type: vless
+  server: 104.21.70.21
+  port: 8080
+  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
+    headers:
+      Host: fornewiran.ade-1000.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
