@@ -5,13 +5,396 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇦 加拿大 (Canada) 01 - Tami
+  type: vless
+  server: 172.67.209.127
+  port: 8880
+  uuid: 1b3ad465-d37e-48a2-bb53-d7fddfc97b11
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: calm-silence-d4a1.217.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 02 - Tami
+  type: vless
+  server: 104.21.33.59
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 03 - Tami
+  type: vless
+  server: 104.26.12.54
+  port: 2083
+  uuid: fc8a0708-951a-4027-860f-2a154ebc4dd7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: crimson-king-301d.nexoxnet.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: crimson-king-301d.nexoxnet.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 04 - Tami
+  type: vless
+  server: 104.21.63.28
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 05 - Tami
+  type: ss
+  server: 51.222.200.165
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 06 - Tami
+  type: vless
+  server: 104.21.63.28
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 07 - Tami
+  type: vless
+  server: 172.66.0.234
+  port: 2083
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 08 - Tami
+  type: vless
+  server: 104.17.147.22
+  port: 443
+  uuid: 518de0d4-6ce8-4404-80db-23c4a8806128
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ez-5faafb.esmaoi.workers.dev
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiQkFLTnhqM2tZTSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: ez-5faafb.esmaoi.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 09 - Tami
   type: ss
   server: 51.79.49.116
   port: 8882
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 02 - Tami
+- name: 🇨🇦 加拿大 (Canada) 10 - Tami
+  type: vless
+  server: 104.24.0.184
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 11 - Tami
+  type: vless
+  server: 104.24.0.184
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 12 - Tami
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 13 - Tami
+  type: vless
+  server: 104.21.63.28
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 14 - Tami
+  type: vless
+  server: lizca2.footballfantasyforum.com
+  port: 443
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lizca2.footballfantasyforum.com
+- name: 🇨🇦 加拿大 (Canada) 15 - Tami
+  type: vless
+  server: 104.24.152.211
+  port: 8880
+  uuid: 2acde116-5949-48d8-a1e6-60a1d2547deb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lively-pine-093d.144-868.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 16 - Tami
+  type: vless
+  server: 141.101.120.73
+  port: 443
+  uuid: 5d8eb33a-2166-4daf-88fe-4be5799c493b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: noisy-term-e657.airdrop2014aa5168.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: noisy-term-e657.airdrop2014aa5168.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 17 - Tami
+  type: vless
+  server: 104.16.10.121
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 18 - Tami
+  type: vless
+  server: 172.66.0.236
+  port: 2083
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 19 - Tami
+  type: vless
+  server: 104.17.117.137
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 20 - Tami
+  type: ss
+  server: 51.222.200.165
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 21 - Tami
+  type: ss
+  server: 51.222.12.127
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 22 - Tami
+  type: vless
+  server: 104.26.13.54
+  port: 2083
+  uuid: fc8a0708-951a-4027-860f-2a154ebc4dd7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: crimson-king-301d.nexoxnet.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: crimson-king-301d.nexoxnet.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 23 - Tami
+  type: vless
+  server: 104.16.10.199
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 24 - Tami
+  type: vless
+  server: 141.101.114.8
+  port: 443
+  uuid: 5d8eb33a-2166-4daf-88fe-4be5799c493b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: noisy-term-e657.airdrop2014aa5168.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: noisy-term-e657.airdrop2014aa5168.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 25 - Tami
+  type: vless
+  server: 104.16.98.215
+  port: 8880
+  uuid: 23187ddc-16a5-432d-bf4e-dd42a7ae39f7
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: steep-thunder-97fa.108-d10.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 26 - Tami
+  type: ss
+  server: 51.222.141.125
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 27 - Tami
+  type: ss
+  server: 51.79.85.185
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 28 - Tami
+  type: vless
+  server: purple-butterfly-8496.erfannull36.workers.dev
+  port: 443
+  uuid: 29fb68bb-ff05-4fd4-8393-cc6c05d81a79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: purple-butterfly-8496.erfannull36.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: purple-butterfly-8496.erfannull36.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 29 - Tami
+  type: vless
+  server: 104.16.156.227
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 30 - Tami
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 31 - Tami
+  type: vless
+  server: 104.16.10.121
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 32 - Tami
+  type: vless
+  server: 104.21.60.109
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 33 - Tami
   type: vless
   server: 66.70.179.198
   port: 2053
@@ -23,7 +406,7 @@ proxies:
     public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
   servername: www.cloudflare.com
   client-fingerprint: random
-- name: 🇨🇦 加拿大 (Canada) 03 - Tami
+- name: 🇨🇦 加拿大 (Canada) 34 - Tami
   type: vless
   server: 184.107.106.68
   port: 443
@@ -32,21 +415,229 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: lizca2.footballfantasyforum.com
-- name: 🇨🇦 加拿大 (Canada) 04 - Tami
-  type: ss
-  server: 51.79.85.185
-  port: 8118
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
+- name: 🇨🇦 加拿大 (Canada) 35 - Tami
+  type: vless
+  server: 8.35.211.115
+  port: 2087
+  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 05 - Tami
-  type: ss
-  server: 149.22.95.183
+  tls: true
+  skip-cert-verify: true
+  servername: mysheep.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mysheep.dpdns.org
+- name: 🇨🇦 加拿大 (Canada) 36 - Tami
+  type: vless
+  server: 104.17.148.22
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  uuid: 518de0d4-6ce8-4404-80db-23c4a8806128
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 06 - Tami
+  tls: true
+  skip-cert-verify: true
+  servername: ez-5faafb.esmaoi.workers.dev
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiQkFLTnhqM2tZTSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: ez-5faafb.esmaoi.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 37 - Tami
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 38 - Tami
+  type: vless
+  server: 172.66.140.62
+  port: 8880
+  uuid: 160ca353-676d-4b7f-a041-0289e388b865
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: proud-cloud-7bdd.208-a52.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 39 - Tami
+  type: vless
+  server: 104.19.32.166
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 40 - Tami
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 41 - Tami
+  type: vless
+  server: 8.39.125.152
+  port: 8443
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bitter-shadow-4fc5.alvlirm852.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: bitter-shadow-4fc5.alvlirm852.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 42 - Tami
+  type: vless
+  server: 172.67.68.157
+  port: 2083
+  uuid: fc8a0708-951a-4027-860f-2a154ebc4dd7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: crimson-king-301d.nexoxnet.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: crimson-king-301d.nexoxnet.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 43 - Tami
+  type: vless
+  server: 104.16.10.185
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 44 - Tami
+  type: vless
+  server: 104.16.10.199
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 45 - Tami
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 46 - Tami
+  type: vless
+  server: 104.21.89.41
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 47 - Tami
+  type: vless
+  server: lizca2.footballfantasyforum.com
+  port: 443
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lizca2.footballfantasyforum.com
+- name: 🇨🇦 加拿大 (Canada) 48 - Tami
+  type: vless
+  server: 172.66.0.236
+  port: 2083
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 49 - Tami
+  type: vless
+  server: 184.107.106.68
+  port: 443
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lizca2.footballfantasyforum.com
+- name: 🇨🇦 加拿大 (Canada) 50 - Tami
+  type: vless
+  server: 45.80.108.236
+  port: 443
+  uuid: ef9d2063-0140-472b-8b17-ba02ba4b4435
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lively-resonance-4e12.electrocellco-cf-059.workers.dev
+  network: ws
+  ws-opts:
+    path: /proxyip
+    headers:
+      Host: lively-resonance-4e12.electrocellco-cf-059.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 51 - Tami
+  type: vless
+  server: 172.67.209.127
+  port: 8880
+  uuid: 1b3ad465-d37e-48a2-bb53-d7fddfc97b11
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: calm-silence-d4a1.217.workers.dev
+- name: 🇨🇦 加拿大 (Canada) 52 - Tami
   type: vless
   server: 66.70.179.198
   port: 2053
@@ -58,103 +649,37 @@ proxies:
     public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇨🇦 加拿大 (Canada) 07 - Tami
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 08 - Tami
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 09 - Tami
-  type: ss
-  server: 51.222.200.165
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 10 - Tami
-  type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 11 - Tami
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 12 - Tami
+- name: 🇨🇦 加拿大 (Canada) 53 - Tami
   type: vless
-  server: 66.70.179.198
-  port: 2053
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇨🇦 加拿大 (Canada) 13 - Tami
-  type: vless
-  server: 66.70.179.198
-  port: 2053
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇨🇦 加拿大 (Canada) 14 - Tami
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 15 - Tami
-  type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 16 - Tami
-  type: vless
-  server: 184.107.106.68
+  server: 8.35.211.236
   port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
-- name: 🇨🇦 加拿大 (Canada) 17 - Tami
+  servername: kkkk-83j.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kkkk-83j.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 54 - Tami
+  type: vless
+  server: 104.21.236.63
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇨🇦 加拿大 (Canada) 55 - Tami
   type: vmess
-  server: 134.195.196.211
+  server: 23.162.200.198
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -162,23 +687,20 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 18 - Tami
-  type: ss
-  server: 51.222.141.125
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
+- name: 🇨🇦 加拿大 (Canada) 56 - Tami
+  type: vless
+  server: 104.21.46.14
+  port: 443
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 19 - Tami
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: cf-vless-4cf55824.aimall.fr
+  network: ws
+  ws-opts:
+    path: /connect
+    headers:
+      Host: cf-vless-4cf55824.aimall.fr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -203,6 +725,43 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 17 - Tami
   - 🇨🇦 加拿大 (Canada) 18 - Tami
   - 🇨🇦 加拿大 (Canada) 19 - Tami
+  - 🇨🇦 加拿大 (Canada) 20 - Tami
+  - 🇨🇦 加拿大 (Canada) 21 - Tami
+  - 🇨🇦 加拿大 (Canada) 22 - Tami
+  - 🇨🇦 加拿大 (Canada) 23 - Tami
+  - 🇨🇦 加拿大 (Canada) 24 - Tami
+  - 🇨🇦 加拿大 (Canada) 25 - Tami
+  - 🇨🇦 加拿大 (Canada) 26 - Tami
+  - 🇨🇦 加拿大 (Canada) 27 - Tami
+  - 🇨🇦 加拿大 (Canada) 28 - Tami
+  - 🇨🇦 加拿大 (Canada) 29 - Tami
+  - 🇨🇦 加拿大 (Canada) 30 - Tami
+  - 🇨🇦 加拿大 (Canada) 31 - Tami
+  - 🇨🇦 加拿大 (Canada) 32 - Tami
+  - 🇨🇦 加拿大 (Canada) 33 - Tami
+  - 🇨🇦 加拿大 (Canada) 34 - Tami
+  - 🇨🇦 加拿大 (Canada) 35 - Tami
+  - 🇨🇦 加拿大 (Canada) 36 - Tami
+  - 🇨🇦 加拿大 (Canada) 37 - Tami
+  - 🇨🇦 加拿大 (Canada) 38 - Tami
+  - 🇨🇦 加拿大 (Canada) 39 - Tami
+  - 🇨🇦 加拿大 (Canada) 40 - Tami
+  - 🇨🇦 加拿大 (Canada) 41 - Tami
+  - 🇨🇦 加拿大 (Canada) 42 - Tami
+  - 🇨🇦 加拿大 (Canada) 43 - Tami
+  - 🇨🇦 加拿大 (Canada) 44 - Tami
+  - 🇨🇦 加拿大 (Canada) 45 - Tami
+  - 🇨🇦 加拿大 (Canada) 46 - Tami
+  - 🇨🇦 加拿大 (Canada) 47 - Tami
+  - 🇨🇦 加拿大 (Canada) 48 - Tami
+  - 🇨🇦 加拿大 (Canada) 49 - Tami
+  - 🇨🇦 加拿大 (Canada) 50 - Tami
+  - 🇨🇦 加拿大 (Canada) 51 - Tami
+  - 🇨🇦 加拿大 (Canada) 52 - Tami
+  - 🇨🇦 加拿大 (Canada) 53 - Tami
+  - 🇨🇦 加拿大 (Canada) 54 - Tami
+  - 🇨🇦 加拿大 (Canada) 55 - Tami
+  - 🇨🇦 加拿大 (Canada) 56 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -227,5 +786,42 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 17 - Tami
   - 🇨🇦 加拿大 (Canada) 18 - Tami
   - 🇨🇦 加拿大 (Canada) 19 - Tami
+  - 🇨🇦 加拿大 (Canada) 20 - Tami
+  - 🇨🇦 加拿大 (Canada) 21 - Tami
+  - 🇨🇦 加拿大 (Canada) 22 - Tami
+  - 🇨🇦 加拿大 (Canada) 23 - Tami
+  - 🇨🇦 加拿大 (Canada) 24 - Tami
+  - 🇨🇦 加拿大 (Canada) 25 - Tami
+  - 🇨🇦 加拿大 (Canada) 26 - Tami
+  - 🇨🇦 加拿大 (Canada) 27 - Tami
+  - 🇨🇦 加拿大 (Canada) 28 - Tami
+  - 🇨🇦 加拿大 (Canada) 29 - Tami
+  - 🇨🇦 加拿大 (Canada) 30 - Tami
+  - 🇨🇦 加拿大 (Canada) 31 - Tami
+  - 🇨🇦 加拿大 (Canada) 32 - Tami
+  - 🇨🇦 加拿大 (Canada) 33 - Tami
+  - 🇨🇦 加拿大 (Canada) 34 - Tami
+  - 🇨🇦 加拿大 (Canada) 35 - Tami
+  - 🇨🇦 加拿大 (Canada) 36 - Tami
+  - 🇨🇦 加拿大 (Canada) 37 - Tami
+  - 🇨🇦 加拿大 (Canada) 38 - Tami
+  - 🇨🇦 加拿大 (Canada) 39 - Tami
+  - 🇨🇦 加拿大 (Canada) 40 - Tami
+  - 🇨🇦 加拿大 (Canada) 41 - Tami
+  - 🇨🇦 加拿大 (Canada) 42 - Tami
+  - 🇨🇦 加拿大 (Canada) 43 - Tami
+  - 🇨🇦 加拿大 (Canada) 44 - Tami
+  - 🇨🇦 加拿大 (Canada) 45 - Tami
+  - 🇨🇦 加拿大 (Canada) 46 - Tami
+  - 🇨🇦 加拿大 (Canada) 47 - Tami
+  - 🇨🇦 加拿大 (Canada) 48 - Tami
+  - 🇨🇦 加拿大 (Canada) 49 - Tami
+  - 🇨🇦 加拿大 (Canada) 50 - Tami
+  - 🇨🇦 加拿大 (Canada) 51 - Tami
+  - 🇨🇦 加拿大 (Canada) 52 - Tami
+  - 🇨🇦 加拿大 (Canada) 53 - Tami
+  - 🇨🇦 加拿大 (Canada) 54 - Tami
+  - 🇨🇦 加拿大 (Canada) 55 - Tami
+  - 🇨🇦 加拿大 (Canada) 56 - Tami
 rules:
 - MATCH,PROXIES
