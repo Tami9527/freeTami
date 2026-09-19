@@ -5,20 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - Tami
-  type: ss
-  server: 108.181.121.226
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
+  type: vless
+  server: 34.175.44.113
+  port: 443
+  uuid: 0b4b1548-c7ca-45a5-9096-6c3cc4b1c43b
   udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: iI9J--AfPKCXbVle3Om-WMn_g-3bO3SsVzUCNtwUkU0
+  servername: www.cloudflare.com
+  client-fingerprint: qq
 - name: 🇪🇸 西班牙 (Spain) 02 - Tami
-  type: ss
-  server: 140.174.184.5
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: qItG8SueYQcP
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 03 - Tami
   type: vless
   server: 212.227.235.66
   port: 2053
@@ -29,7 +27,86 @@ proxies:
   reality-opts:
     public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
   servername: www.apple.com
+  client-fingerprint: random
+- name: 🇪🇸 西班牙 (Spain) 03 - Tami
+  type: vless
+  server: 34.175.44.113
+  port: 443
+  uuid: 0b4b1548-c7ca-45a5-9096-6c3cc4b1c43b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: iI9J--AfPKCXbVle3Om-WMn_g-3bO3SsVzUCNtwUkU0
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇪🇸 西班牙 (Spain) 04 - Tami
+  type: vless
+  server: 34.175.44.113
+  port: 443
+  uuid: 0b4b1548-c7ca-45a5-9096-6c3cc4b1c43b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: iI9J--AfPKCXbVle3Om-WMn_g-3bO3SsVzUCNtwUkU0
+  servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇪🇸 西班牙 (Spain) 05 - Tami
+  type: vless
+  server: 34.175.90.91
+  port: 443
+  uuid: c55c9880-2f9c-4ad6-bfc2-5054516bf613
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: lM9EQ1rZH9inQjrZesuqgldsXYN_yfT5-tqhPfbyen4
+  servername: www.cloudflare.com
+  client-fingerprint: qq
+- name: 🇪🇸 西班牙 (Spain) 06 - Tami
+  type: vless
+  server: 34.175.44.113
+  port: 443
+  uuid: 0b4b1548-c7ca-45a5-9096-6c3cc4b1c43b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: iI9J--AfPKCXbVle3Om-WMn_g-3bO3SsVzUCNtwUkU0
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇪🇸 西班牙 (Spain) 07 - Tami
+  type: ss
+  server: 140.174.184.5
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: qItG8SueYQcP
+  udp: true
+- name: 🇪🇸 西班牙 (Spain) 08 - Tami
+  type: vless
+  server: 34.175.90.91
+  port: 443
+  uuid: c55c9880-2f9c-4ad6-bfc2-5054516bf613
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: lM9EQ1rZH9inQjrZesuqgldsXYN_yfT5-tqhPfbyen4
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇪🇸 西班牙 (Spain) 09 - Tami
+  type: vless
+  server: 34.175.90.91
+  port: 443
+  uuid: c55c9880-2f9c-4ad6-bfc2-5054516bf613
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: lM9EQ1rZH9inQjrZesuqgldsXYN_yfT5-tqhPfbyen4
+  servername: www.cloudflare.com
+  client-fingerprint: safari
 proxy-groups:
 - name: PROXIES
   type: select
@@ -38,6 +115,12 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 01 - Tami
   - 🇪🇸 西班牙 (Spain) 02 - Tami
   - 🇪🇸 西班牙 (Spain) 03 - Tami
+  - 🇪🇸 西班牙 (Spain) 04 - Tami
+  - 🇪🇸 西班牙 (Spain) 05 - Tami
+  - 🇪🇸 西班牙 (Spain) 06 - Tami
+  - 🇪🇸 西班牙 (Spain) 07 - Tami
+  - 🇪🇸 西班牙 (Spain) 08 - Tami
+  - 🇪🇸 西班牙 (Spain) 09 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +129,11 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 01 - Tami
   - 🇪🇸 西班牙 (Spain) 02 - Tami
   - 🇪🇸 西班牙 (Spain) 03 - Tami
+  - 🇪🇸 西班牙 (Spain) 04 - Tami
+  - 🇪🇸 西班牙 (Spain) 05 - Tami
+  - 🇪🇸 西班牙 (Spain) 06 - Tami
+  - 🇪🇸 西班牙 (Spain) 07 - Tami
+  - 🇪🇸 西班牙 (Spain) 08 - Tami
+  - 🇪🇸 西班牙 (Spain) 09 - Tami
 rules:
 - MATCH,PROXIES

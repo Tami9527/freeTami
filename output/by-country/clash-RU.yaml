@@ -6,34 +6,36 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - Tami
   type: vless
-  server: 172.64.229.170
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 104.21.12.63
+  port: 8443
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: INDEX.Arcane509.Workers.DEV
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls+
+    path: /
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: index.arcane509.workers.dev
 - name: 🇷🇺 俄罗斯 (Russia) 02 - Tami
   type: vless
-  server: 104.18.47.113
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 172.67.137.223
+  port: 443
+  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: curly-night-6928.ggdhchjk.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /sync
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: curly-night-6928.ggdhchjk.workers.dev
 - name: 🇷🇺 俄罗斯 (Russia) 03 - Tami
   type: vless
-  server: 172.64.42.85
-  port: 2095
+  server: 172.64.158.146
+  port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -44,16 +46,30 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 04 - Tami
-  type: ss
-  server: 195.58.48.137
-  port: 10900
-  cipher: aes-256-gcm
-  password: 8ad9d72a5571df86
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 05 - Tami
   type: vless
-  server: 172.64.229.170
-  port: 8880
+  server: 63.141.128.22
+  port: 443
+  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+- name: 🇷🇺 俄罗斯 (Russia) 05 - Tami
+  type: ss
+  server: 134.0.112.71
+  port: 17517
+  cipher: aes-256-gcm
+  password: 64Kms+G+nD6FlGJjZJfeUNJIGbX/EKrk2o/MH04zApw=
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 06 - Tami
+  type: vless
+  server: 162.159.0.53
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -63,6 +79,27 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 07 - Tami
+  type: vless
+  server: 46.8.200.91
+  port: 443
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf3.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf3.rumedia-cdn.com
+- name: 🇷🇺 俄罗斯 (Russia) 08 - Tami
+  type: ss
+  server: 195.133.5.102
+  port: 10900
+  cipher: aes-256-gcm
+  password: 895b4b796a357570
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -73,6 +110,9 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 03 - Tami
   - 🇷🇺 俄罗斯 (Russia) 04 - Tami
   - 🇷🇺 俄罗斯 (Russia) 05 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 06 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 07 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 08 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -83,5 +123,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 03 - Tami
   - 🇷🇺 俄罗斯 (Russia) 04 - Tami
   - 🇷🇺 俄罗斯 (Russia) 05 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 06 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 07 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 08 - Tami
 rules:
 - MATCH,PROXIES
