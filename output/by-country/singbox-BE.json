@@ -6,28 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇪 BE 01 - Tami",
-        "🇧🇪 BE 02 - Tami",
-        "🇧🇪 BE 03 - Tami",
-        "🇧🇪 BE 04 - Tami",
-        "🇧🇪 BE 05 - Tami",
-        "🇧🇪 BE 06 - Tami",
-        "🇧🇪 BE 07 - Tami",
-        "🇧🇪 BE 08 - Tami"
+        "🇧🇪 BE 01 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇪 BE 01 - Tami",
-        "🇧🇪 BE 02 - Tami",
-        "🇧🇪 BE 03 - Tami",
-        "🇧🇪 BE 04 - Tami",
-        "🇧🇪 BE 05 - Tami",
-        "🇧🇪 BE 06 - Tami",
-        "🇧🇪 BE 07 - Tami",
-        "🇧🇪 BE 08 - Tami"
+        "🇧🇪 BE 01 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
