@@ -6,15 +6,49 @@ log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - Tami
   type: vmess
-  server: 165.154.195.38
-  port: 35034
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  server: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
+  port: 443
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - Tami
+  type: vless
+  server: 60.248.219.53
+  port: 443
+  uuid: f1d247db-d7ce-4eb8-9c0d-7b10603cd0b4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ty986gfazs.cainiaohub.xyz
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+- name: 🇹🇼 中国台湾 (Taiwan) 03 - Tami
+  type: vless
+  server: 59.125.69.19
+  port: 443
+  uuid: f1d247db-d7ce-4eb8-9c0d-7b10603cd0b4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ty986gfazs.cainiaohub.xyz
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: 59.125.69.19
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - Tami
   type: vmess
   server: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
   port: 443
@@ -30,7 +64,7 @@ proxies:
     path: ''
     headers:
       Host: ''
-- name: 🇹🇼 中国台湾 (Taiwan) 03 - Tami
+- name: 🇹🇼 中国台湾 (Taiwan) 05 - Tami
   type: vless
   server: 60.248.219.52
   port: 443
@@ -43,39 +77,7 @@ proxies:
   ws-opts:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: ty986gfazs.cainiaohub.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 04 - Tami
-  type: vmess
-  server: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: 🇹🇼 中国台湾 (Taiwan) 05 - Tami
-  type: vmess
-  server: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
+      Host: 60.248.219.52
 - name: 🇹🇼 中国台湾 (Taiwan) 06 - Tami
   type: vmess
   server: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
@@ -94,6 +96,22 @@ proxies:
       Host: ''
 - name: 🇹🇼 中国台湾 (Taiwan) 07 - Tami
   type: vmess
+  server: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+  port: 443
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+- name: 🇹🇼 中国台湾 (Taiwan) 08 - Tami
+  type: vmess
   server: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
   port: 443
   uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
@@ -102,13 +120,27 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: ''
-- name: 🇹🇼 中国台湾 (Taiwan) 08 - Tami
+      Host: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
+- name: 🇹🇼 中国台湾 (Taiwan) 09 - Tami
+  type: vless
+  server: 60.248.219.52
+  port: 443
+  uuid: f265b49a-70a3-407a-b17b-e45dfb9f255c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ty986gfazs.cainiaohub.xyz
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+- name: 🇹🇼 中国台湾 (Taiwan) 10 - Tami
   type: vmess
   server: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
   port: 443
@@ -124,27 +156,69 @@ proxies:
     path: ''
     headers:
       Host: ''
-- name: 🇹🇼 中国台湾 (Taiwan) 09 - Tami
-  type: vmess
-  server: 165.154.195.38
-  port: 35034
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 10 - Tami
-  type: vmess
-  server: 165.154.195.38
-  port: 35034
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 11 - Tami
+  type: vmess
+  server: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
+  port: 443
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇹🇼 中国台湾 (Taiwan) 12 - Tami
+  type: vmess
+  server: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
+  port: 443
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
+- name: 🇹🇼 中国台湾 (Taiwan) 13 - Tami
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 14 - Tami
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 15 - Tami
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 16 - Tami
   type: vmess
   server: 165.154.195.38
   port: 35034
@@ -170,6 +244,11 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 09 - Tami
   - 🇹🇼 中国台湾 (Taiwan) 10 - Tami
   - 🇹🇼 中国台湾 (Taiwan) 11 - Tami
+  - 🇹🇼 中国台湾 (Taiwan) 12 - Tami
+  - 🇹🇼 中国台湾 (Taiwan) 13 - Tami
+  - 🇹🇼 中国台湾 (Taiwan) 14 - Tami
+  - 🇹🇼 中国台湾 (Taiwan) 15 - Tami
+  - 🇹🇼 中国台湾 (Taiwan) 16 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -186,5 +265,10 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 09 - Tami
   - 🇹🇼 中国台湾 (Taiwan) 10 - Tami
   - 🇹🇼 中国台湾 (Taiwan) 11 - Tami
+  - 🇹🇼 中国台湾 (Taiwan) 12 - Tami
+  - 🇹🇼 中国台湾 (Taiwan) 13 - Tami
+  - 🇹🇼 中国台湾 (Taiwan) 14 - Tami
+  - 🇹🇼 中国台湾 (Taiwan) 15 - Tami
+  - 🇹🇼 中国台湾 (Taiwan) 16 - Tami
 rules:
 - MATCH,PROXIES
