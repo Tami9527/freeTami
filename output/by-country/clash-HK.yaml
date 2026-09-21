@@ -19,6 +19,44 @@ proxies:
     headers:
       Host: hk1.69lover.my
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - Tami
+  type: vless
+  server: 185.155.235.35
+  port: 40649
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - Tami
+  type: vmess
+  server: 89.223.95.77
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - Tami
+  type: vless
+  server: 43.159.4.80
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /episode/files?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - Tami
   type: vmess
   server: 156.245.232.239
   port: 35043
@@ -33,7 +71,7 @@ proxies:
     path: /
     headers:
       Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - Tami
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - Tami
   type: vless
   server: 104.16.60.10
   port: 443
@@ -47,6 +85,35 @@ proxies:
     path: /api/v2/e2fe4e52a165854d/stream
     headers:
       Host: hk1.69lover.my
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - Tami
+  type: vless
+  server: 221.125.10.8
+  port: 57537
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - Tami
+  type: vmess
+  server: 156.245.232.239
+  port: 35043
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
 proxy-groups:
 - name: PROXIES
   type: select
@@ -55,6 +122,11 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 01 - Tami
   - 🇭🇰 中国香港 (Hong Kong) 02 - Tami
   - 🇭🇰 中国香港 (Hong Kong) 03 - Tami
+  - 🇭🇰 中国香港 (Hong Kong) 04 - Tami
+  - 🇭🇰 中国香港 (Hong Kong) 05 - Tami
+  - 🇭🇰 中国香港 (Hong Kong) 06 - Tami
+  - 🇭🇰 中国香港 (Hong Kong) 07 - Tami
+  - 🇭🇰 中国香港 (Hong Kong) 08 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -63,5 +135,10 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 01 - Tami
   - 🇭🇰 中国香港 (Hong Kong) 02 - Tami
   - 🇭🇰 中国香港 (Hong Kong) 03 - Tami
+  - 🇭🇰 中国香港 (Hong Kong) 04 - Tami
+  - 🇭🇰 中国香港 (Hong Kong) 05 - Tami
+  - 🇭🇰 中国香港 (Hong Kong) 06 - Tami
+  - 🇭🇰 中国香港 (Hong Kong) 07 - Tami
+  - 🇭🇰 中国香港 (Hong Kong) 08 - Tami
 rules:
 - MATCH,PROXIES
