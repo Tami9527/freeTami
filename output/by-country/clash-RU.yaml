@@ -20,7 +20,21 @@ proxies:
       Host: cdn8848.776676.xyz
 - name: 🇷🇺 俄罗斯 (Russia) 02 - Tami
   type: vless
-  server: 103.251.167.112
+  server: 5.101.114.44
+  port: 2053
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /collection/directory?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇷🇺 俄罗斯 (Russia) 03 - Tami
+  type: vless
+  server: 132.243.203.218
   port: 8443
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
@@ -29,63 +43,7 @@ proxies:
   servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /library/lang
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇷🇺 俄罗斯 (Russia) 03 - Tami
-  type: vless
-  server: 103.31.77.108
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /channels/act
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇷🇺 俄罗斯 (Russia) 04 - Tami
-  type: vless
-  server: 46.8.200.91
-  port: 443
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 05 - Tami
-  type: vless
-  server: 5.104.107.80
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇷🇺 俄罗斯 (Russia) 06 - Tami
-  type: vless
-  server: 109.107.155.76
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /tv/member/auth?ed=2560fp=chrome
+    path: '%2Fv%3Fed%3D2560'
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
@@ -96,9 +54,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - Tami
   - 🇷🇺 俄罗斯 (Russia) 02 - Tami
   - 🇷🇺 俄罗斯 (Russia) 03 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 04 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 05 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 06 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -107,8 +62,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - Tami
   - 🇷🇺 俄罗斯 (Russia) 02 - Tami
   - 🇷🇺 俄罗斯 (Russia) 03 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 04 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 05 - Tami
-  - 🇷🇺 俄罗斯 (Russia) 06 - Tami
 rules:
 - MATCH,PROXIES
