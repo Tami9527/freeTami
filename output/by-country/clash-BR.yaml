@@ -1,0 +1,528 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇧🇷 BR 01 - Tami
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /mtmvpn
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 02 - Tami
+  type: vless
+  server: 104.21.89.41
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 03 - Tami
+  type: vless
+  server: 104.21.34.106
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 04 - Tami
+  type: vless
+  server: 104.21.89.41
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 05 - Tami
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 06 - Tami
+  type: vless
+  server: 104.25.220.68
+  port: 443
+  uuid: 9952b71a-6c86-4522-888f-ff9ea9b93536
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 1.hshs8227shhshs.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 1.hshs8227shhshs.workers.dev
+- name: 🇧🇷 BR 07 - Tami
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 08 - Tami
+  type: vless
+  server: 104.21.89.41
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 09 - Tami
+  type: vless
+  server: 188.114.97.7
+  port: 2083
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shy-fog-af06.alvlirm333.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shy-fog-af06.alvlirm333.workers.dev
+- name: 🇧🇷 BR 10 - Tami
+  type: vless
+  server: 104.21.63.28
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 11 - Tami
+  type: vless
+  server: 104.24.0.184
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 12 - Tami
+  type: vless
+  server: 104.27.92.217
+  port: 443
+  uuid: 5f4acc06-8cbf-4172-92d2-8f475e51f781
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: p9C85CkpnAI98SdLJZhUWwnOlmCmxW88.CdZsqJE4u3mS.WorKeRs.deV
+  network: ws
+  ws-opts:
+    path: /vl/qS74oZnpprf6Qgqx
+    headers:
+      Host: p9c85ckpnai98sdljzhuwwnolmcmxw88.cdzsqje4u3ms.workers.dev
+- name: 🇧🇷 BR 13 - Tami
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 14 - Tami
+  type: vless
+  server: 104.21.60.109
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 15 - Tami
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 16 - Tami
+  type: vless
+  server: shy-mud-e936.15-bb9.workers.dev
+  port: 8880
+  uuid: ae83f4a6-7fd3-4168-9f42-1260fc601155
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shy-mud-e936.15-bb9.workers.dev
+- name: 🇧🇷 BR 17 - Tami
+  type: vless
+  server: 157.173.125.214
+  port: 2087
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: '%2Fredirect%2Fchina%2Fview%3Fed%3D2560'
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇧🇷 BR 18 - Tami
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 19 - Tami
+  type: vless
+  server: 104.24.0.184
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 20 - Tami
+  type: vless
+  server: 104.24.11.68
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 21 - Tami
+  type: vless
+  server: 104.21.89.41
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 22 - Tami
+  type: vless
+  server: 104.27.92.217
+  port: 443
+  uuid: 5f4acc06-8cbf-4172-92d2-8f475e51f781
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: p9C85CkpnAI98SdLJZhUWwnOlmCmxW88.CdZsqJE4u3mS.WorKeRs.deV
+  network: ws
+  ws-opts:
+    path: /vl/qS74oZnpprf6Qgqx
+    headers:
+      Host: p9c85ckpnai98sdljzhuwwnolmcmxw88.cdzsqje4u3ms.workers.dev
+- name: 🇧🇷 BR 23 - Tami
+  type: vless
+  server: 104.21.34.106
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 24 - Tami
+  type: vless
+  server: little-pond-8731.81-68e.workers.dev
+  port: 8880
+  uuid: ad85a1ce-3519-4634-9ea1-66c60d3694ba
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: little-pond-8731.81-68e.workers.dev
+- name: 🇧🇷 BR 25 - Tami
+  type: vless
+  server: 104.24.0.184
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 26 - Tami
+  type: vless
+  server: 104.21.70.228
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 27 - Tami
+  type: vless
+  server: 104.21.98.146
+  port: 8443
+  uuid: 50414e45-4c5f-5a45-5553-48493148ec15
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cgzdynepurqs.mercury061.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/48493148ec15
+    headers:
+      Host: cgzdynepurqs.mercury061.workers.dev
+- name: 🇧🇷 BR 28 - Tami
+  type: vless
+  server: 104.21.89.41
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 29 - Tami
+  type: vless
+  server: 104.21.63.28
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 30 - Tami
+  type: vless
+  server: 104.21.33.59
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 31 - Tami
+  type: vless
+  server: 104.21.236.63
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 32 - Tami
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇧🇷 BR 01 - Tami
+  - 🇧🇷 BR 02 - Tami
+  - 🇧🇷 BR 03 - Tami
+  - 🇧🇷 BR 04 - Tami
+  - 🇧🇷 BR 05 - Tami
+  - 🇧🇷 BR 06 - Tami
+  - 🇧🇷 BR 07 - Tami
+  - 🇧🇷 BR 08 - Tami
+  - 🇧🇷 BR 09 - Tami
+  - 🇧🇷 BR 10 - Tami
+  - 🇧🇷 BR 11 - Tami
+  - 🇧🇷 BR 12 - Tami
+  - 🇧🇷 BR 13 - Tami
+  - 🇧🇷 BR 14 - Tami
+  - 🇧🇷 BR 15 - Tami
+  - 🇧🇷 BR 16 - Tami
+  - 🇧🇷 BR 17 - Tami
+  - 🇧🇷 BR 18 - Tami
+  - 🇧🇷 BR 19 - Tami
+  - 🇧🇷 BR 20 - Tami
+  - 🇧🇷 BR 21 - Tami
+  - 🇧🇷 BR 22 - Tami
+  - 🇧🇷 BR 23 - Tami
+  - 🇧🇷 BR 24 - Tami
+  - 🇧🇷 BR 25 - Tami
+  - 🇧🇷 BR 26 - Tami
+  - 🇧🇷 BR 27 - Tami
+  - 🇧🇷 BR 28 - Tami
+  - 🇧🇷 BR 29 - Tami
+  - 🇧🇷 BR 30 - Tami
+  - 🇧🇷 BR 31 - Tami
+  - 🇧🇷 BR 32 - Tami
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇧🇷 BR 01 - Tami
+  - 🇧🇷 BR 02 - Tami
+  - 🇧🇷 BR 03 - Tami
+  - 🇧🇷 BR 04 - Tami
+  - 🇧🇷 BR 05 - Tami
+  - 🇧🇷 BR 06 - Tami
+  - 🇧🇷 BR 07 - Tami
+  - 🇧🇷 BR 08 - Tami
+  - 🇧🇷 BR 09 - Tami
+  - 🇧🇷 BR 10 - Tami
+  - 🇧🇷 BR 11 - Tami
+  - 🇧🇷 BR 12 - Tami
+  - 🇧🇷 BR 13 - Tami
+  - 🇧🇷 BR 14 - Tami
+  - 🇧🇷 BR 15 - Tami
+  - 🇧🇷 BR 16 - Tami
+  - 🇧🇷 BR 17 - Tami
+  - 🇧🇷 BR 18 - Tami
+  - 🇧🇷 BR 19 - Tami
+  - 🇧🇷 BR 20 - Tami
+  - 🇧🇷 BR 21 - Tami
+  - 🇧🇷 BR 22 - Tami
+  - 🇧🇷 BR 23 - Tami
+  - 🇧🇷 BR 24 - Tami
+  - 🇧🇷 BR 25 - Tami
+  - 🇧🇷 BR 26 - Tami
+  - 🇧🇷 BR 27 - Tami
+  - 🇧🇷 BR 28 - Tami
+  - 🇧🇷 BR 29 - Tami
+  - 🇧🇷 BR 30 - Tami
+  - 🇧🇷 BR 31 - Tami
+  - 🇧🇷 BR 32 - Tami
+rules:
+- MATCH,PROXIES
