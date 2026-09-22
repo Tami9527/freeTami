@@ -6,28 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇪 阿联酋 (UAE) 01 - Tami",
-        "🇦🇪 阿联酋 (UAE) 02 - Tami",
-        "🇦🇪 阿联酋 (UAE) 03 - Tami",
-        "🇦🇪 阿联酋 (UAE) 04 - Tami",
-        "🇦🇪 阿联酋 (UAE) 05 - Tami",
-        "🇦🇪 阿联酋 (UAE) 06 - Tami",
-        "🇦🇪 阿联酋 (UAE) 07 - Tami",
-        "🇦🇪 阿联酋 (UAE) 08 - Tami"
+        "🇦🇪 阿联酋 (UAE) 01 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇪 阿联酋 (UAE) 01 - Tami",
-        "🇦🇪 阿联酋 (UAE) 02 - Tami",
-        "🇦🇪 阿联酋 (UAE) 03 - Tami",
-        "🇦🇪 阿联酋 (UAE) 04 - Tami",
-        "🇦🇪 阿联酋 (UAE) 05 - Tami",
-        "🇦🇪 阿联酋 (UAE) 06 - Tami",
-        "🇦🇪 阿联酋 (UAE) 07 - Tami",
-        "🇦🇪 阿联酋 (UAE) 08 - Tami"
+        "🇦🇪 阿联酋 (UAE) 01 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
