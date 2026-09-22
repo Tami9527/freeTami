@@ -5,30 +5,41 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - Tami
-  type: vless
-  server: 185.113.223.183
-  port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  type: vmess
+  server: 78.135.77.91
+  port: 25020
+  uuid: nitro_teeam@
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /channels/act
+    path: ''
     headers:
-      Host: cdn8848.776676.xyz
+      Host: ''
+- name: 🇹🇷 土耳其 (Turkey) 02 - Tami
+  type: vless
+  server: 144.225.65.177
+  port: 443
+  uuid: 443b2e33-8e9c-4f7b-a48a-383a93895d1e
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - Tami
+  - 🇹🇷 土耳其 (Turkey) 02 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - Tami
+  - 🇹🇷 土耳其 (Turkey) 02 - Tami
 rules:
 - MATCH,PROXIES
