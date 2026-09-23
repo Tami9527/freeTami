@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - Tami
   type: vless
-  server: 212.104.128.217
+  server: 212.104.128.45
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 02 - Tami
   type: vless
-  server: 212.104.128.106
+  server: 212.104.128.139
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 03 - Tami
   type: vless
-  server: 212.104.128.45
+  server: 212.104.128.68
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -48,32 +48,32 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 04 - Tami
   type: vless
-  server: k2.cloud--vpn.site
+  server: 212.104.128.206
   port: 443
-  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ssl.fastly.com
+  servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: c12.com
+      Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 05 - Tami
   type: vless
-  server: 31.76.80.230
-  port: 8443
-  uuid: d544c858-b1ba-45b2-8868-8197daf2a6ee
+  server: 212.104.128.152
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fin.luxes.network
+  servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /assets
+    path: /
     headers:
-      Host: 31.76.80.230
+      Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 06 - Tami
   type: vless
   server: 212.104.128.27
@@ -90,7 +90,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 07 - Tami
   type: vless
-  server: 212.104.128.206
+  server: 212.104.128.0
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -104,7 +104,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 08 - Tami
   type: vless
-  server: 212.104.128.152
+  server: 212.104.128.217
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -118,21 +118,21 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 09 - Tami
   type: vless
-  server: 212.104.128.244
+  server: 151.101.56.7
   port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: 8abb648a-b004-42a4-aa05-49cdc2f94d4e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
+  servername: global.fastly.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: kayko.global.ssl.fastly.net
 - name: 🇫🇮 FI 10 - Tami
   type: vless
-  server: 212.104.128.0
+  server: 212.104.128.217
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -146,7 +146,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 11 - Tami
   type: vless
-  server: 212.104.128.152
+  server: 212.104.128.68
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -160,75 +160,33 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 12 - Tami
   type: vless
-  server: 212.104.128.139
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  server: 104.18.38.47
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: ?ed=2560
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 13 - Tami
   type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
+  server: 31.76.80.230
+  port: 8443
+  uuid: d544c858-b1ba-45b2-8868-8197daf2a6ee
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ssl.fastly.com
+  servername: fin.luxes.network
   network: ws
   ws-opts:
-    path: /?
+    path: /assets
     headers:
-      Host: c12.com
+      Host: 31.76.80.230
 - name: 🇫🇮 FI 14 - Tami
-  type: vless
-  server: 212.104.128.0
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 15 - Tami
-  type: vless
-  server: 212.104.128.45
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 16 - Tami
-  type: vless
-  server: 212.104.128.139
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 17 - Tami
   type: vless
   server: 212.104.128.106
   port: 443
@@ -242,161 +200,7 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 18 - Tami
-  type: vless
-  server: 212.104.128.68
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 19 - Tami
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 20 - Tami
-  type: vless
-  server: 212.104.128.27
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 21 - Tami
-  type: vless
-  server: 31.76.80.230
-  port: 8443
-  uuid: d544c858-b1ba-45b2-8868-8197daf2a6ee
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fin.luxes.network
-  network: ws
-  ws-opts:
-    path: /assets
-    headers:
-      Host: 31.76.80.230
-- name: 🇫🇮 FI 22 - Tami
-  type: vless
-  server: 31.76.80.230
-  port: 8443
-  uuid: d544c858-b1ba-45b2-8868-8197daf2a6ee
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fin.luxes.network
-  network: ws
-  ws-opts:
-    path: /assets
-    headers:
-      Host: 31.76.80.230
-- name: 🇫🇮 FI 23 - Tami
-  type: vless
-  server: 212.104.128.45
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 24 - Tami
-  type: vless
-  server: 212.104.128.217
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 25 - Tami
-  type: vless
-  server: 212.104.128.206
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 26 - Tami
-  type: vless
-  server: 212.104.128.217
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 27 - Tami
-  type: vless
-  server: 212.104.128.68
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 28 - Tami
-  type: vless
-  server: 212.104.128.68
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 29 - Tami
+- name: 🇫🇮 FI 15 - Tami
   type: vless
   server: 212.104.128.244
   port: 443
@@ -410,20 +214,34 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 30 - Tami
+- name: 🇫🇮 FI 16 - Tami
   type: vless
-  server: 212.104.128.27
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  server: 31.76.80.230
+  port: 8443
+  uuid: d544c858-b1ba-45b2-8868-8197daf2a6ee
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
+  servername: fin.luxes.network
   network: ws
   ws-opts:
-    path: /
+    path: /assets
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: 31.76.80.230
+- name: 🇫🇮 FI 17 - Tami
+  type: vless
+  server: 104.16.150.108
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 proxy-groups:
 - name: PROXIES
   type: select
@@ -446,19 +264,6 @@ proxy-groups:
   - 🇫🇮 FI 15 - Tami
   - 🇫🇮 FI 16 - Tami
   - 🇫🇮 FI 17 - Tami
-  - 🇫🇮 FI 18 - Tami
-  - 🇫🇮 FI 19 - Tami
-  - 🇫🇮 FI 20 - Tami
-  - 🇫🇮 FI 21 - Tami
-  - 🇫🇮 FI 22 - Tami
-  - 🇫🇮 FI 23 - Tami
-  - 🇫🇮 FI 24 - Tami
-  - 🇫🇮 FI 25 - Tami
-  - 🇫🇮 FI 26 - Tami
-  - 🇫🇮 FI 27 - Tami
-  - 🇫🇮 FI 28 - Tami
-  - 🇫🇮 FI 29 - Tami
-  - 🇫🇮 FI 30 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -481,18 +286,5 @@ proxy-groups:
   - 🇫🇮 FI 15 - Tami
   - 🇫🇮 FI 16 - Tami
   - 🇫🇮 FI 17 - Tami
-  - 🇫🇮 FI 18 - Tami
-  - 🇫🇮 FI 19 - Tami
-  - 🇫🇮 FI 20 - Tami
-  - 🇫🇮 FI 21 - Tami
-  - 🇫🇮 FI 22 - Tami
-  - 🇫🇮 FI 23 - Tami
-  - 🇫🇮 FI 24 - Tami
-  - 🇫🇮 FI 25 - Tami
-  - 🇫🇮 FI 26 - Tami
-  - 🇫🇮 FI 27 - Tami
-  - 🇫🇮 FI 28 - Tami
-  - 🇫🇮 FI 29 - Tami
-  - 🇫🇮 FI 30 - Tami
 rules:
 - MATCH,PROXIES
