@@ -6,14 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI 01 - Tami"
+        "🇫🇮 FI 01 - Tami",
+        "🇫🇮 FI 02 - Tami",
+        "🇫🇮 FI 03 - Tami",
+        "🇫🇮 FI 04 - Tami",
+        "🇫🇮 FI 05 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - Tami"
+        "🇫🇮 FI 01 - Tami",
+        "🇫🇮 FI 02 - Tami",
+        "🇫🇮 FI 03 - Tami",
+        "🇫🇮 FI 04 - Tami",
+        "🇫🇮 FI 05 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
