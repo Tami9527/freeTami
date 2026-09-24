@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - Tami"
+        "🇿🇦 ZA 01 - Tami",
+        "🇿🇦 ZA 02 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - Tami"
+        "🇿🇦 ZA 01 - Tami",
+        "🇿🇦 ZA 02 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
