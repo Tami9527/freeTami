@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇵🇱 PL 01 - Tami",
+        "🇵🇱 PL 02 - Tami",
+        "🇵🇱 PL 03 - Tami",
+        "🇵🇱 PL 04 - Tami",
+        "🇵🇱 PL 05 - Tami",
+        "🇵🇱 PL 06 - Tami",
+        "🇵🇱 PL 07 - Tami"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇵🇱 PL 01 - Tami",
+        "🇵🇱 PL 02 - Tami",
+        "🇵🇱 PL 03 - Tami",
+        "🇵🇱 PL 04 - Tami",
+        "🇵🇱 PL 05 - Tami",
+        "🇵🇱 PL 06 - Tami",
+        "🇵🇱 PL 07 - Tami"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
