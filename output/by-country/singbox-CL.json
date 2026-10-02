@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇱 CL 01 - Tami",
+        "🇨🇱 CL 02 - Tami",
+        "🇨🇱 CL 03 - Tami",
+        "🇨🇱 CL 04 - Tami",
+        "🇨🇱 CL 05 - Tami",
+        "🇨🇱 CL 06 - Tami"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇱 CL 01 - Tami",
+        "🇨🇱 CL 02 - Tami",
+        "🇨🇱 CL 03 - Tami",
+        "🇨🇱 CL 04 - Tami",
+        "🇨🇱 CL 05 - Tami",
+        "🇨🇱 CL 06 - Tami"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

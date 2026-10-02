@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇰🇬 KG 01 - Tami",
+        "🇰🇬 KG 02 - Tami",
+        "🇰🇬 KG 03 - Tami",
+        "🇰🇬 KG 04 - Tami",
+        "🇰🇬 KG 05 - Tami",
+        "🇰🇬 KG 06 - Tami",
+        "🇰🇬 KG 07 - Tami"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇰🇬 KG 01 - Tami",
+        "🇰🇬 KG 02 - Tami",
+        "🇰🇬 KG 03 - Tami",
+        "🇰🇬 KG 04 - Tami",
+        "🇰🇬 KG 05 - Tami",
+        "🇰🇬 KG 06 - Tami",
+        "🇰🇬 KG 07 - Tami"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
