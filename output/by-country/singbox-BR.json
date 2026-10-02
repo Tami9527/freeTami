@@ -6,16 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 MX 01 - Tami",
-        "🇲🇽 MX 02 - Tami"
+        "🇧🇷 BR 01 - Tami",
+        "🇧🇷 BR 02 - Tami",
+        "🇧🇷 BR 03 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - Tami",
-        "🇲🇽 MX 02 - Tami"
+        "🇧🇷 BR 01 - Tami",
+        "🇧🇷 BR 02 - Tami",
+        "🇧🇷 BR 03 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
