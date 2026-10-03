@@ -6,14 +6,24 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇾 BY 01 - Tami"
+        "🇧🇾 BY 01 - Tami",
+        "🇧🇾 BY 02 - Tami",
+        "🇧🇾 BY 03 - Tami",
+        "🇧🇾 BY 04 - Tami",
+        "🇧🇾 BY 05 - Tami",
+        "🇧🇾 BY 06 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇾 BY 01 - Tami"
+        "🇧🇾 BY 01 - Tami",
+        "🇧🇾 BY 02 - Tami",
+        "🇧🇾 BY 03 - Tami",
+        "🇧🇾 BY 04 - Tami",
+        "🇧🇾 BY 05 - Tami",
+        "🇧🇾 BY 06 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
