@@ -18,21 +18,7 @@ proxies:
     path: /e8e2cecb6188f7fb
     headers:
       Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - Tami
-  type: vless
-  server: 60.248.219.78
-  port: 443
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ty986gfazs.cainiaohub.xyz
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: 60.248.219.78
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - Tami
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - Tami
   type: vless
   server: 103.180.20.108
   port: 8443
@@ -46,21 +32,51 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: 103.180.20.108
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - Tami
+  type: vless
+  server: 60.248.219.54
+  port: 443
+  uuid: 06e177f7-240d-4687-bd85-235505801a5e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ty986gfazs.cainiaohub.xyz
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: 60.248.219.54
+- name: 🇨🇦 加拿大 (Canada) 04 (家宽) - Tami
+  type: vless
+  server: 104.21.88.201
+  port: 443
+  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: app-q0zc4t.user-4gfyh5.workers.dev
+  network: ws
+  ws-opts:
+    path: /cmh
+    headers:
+      Host: app-q0zc4t.user-4gfyh5.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - Tami
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - Tami
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - Tami
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - Tami
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - Tami
+  - 🇨🇦 加拿大 (Canada) 04 (家宽) - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - Tami
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - Tami
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - Tami
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - Tami
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - Tami
+  - 🇨🇦 加拿大 (Canada) 04 (家宽) - Tami
 rules:
 - MATCH,PROXIES

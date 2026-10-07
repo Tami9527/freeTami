@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇱 IL 01 - Tami"
+        "🇮🇱 IL 01 - Tami",
+        "🇮🇱 IL 02 - Tami",
+        "🇮🇱 IL 03 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇱 IL 01 - Tami"
+        "🇮🇱 IL 01 - Tami",
+        "🇮🇱 IL 02 - Tami",
+        "🇮🇱 IL 03 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
