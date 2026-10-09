@@ -6,10 +6,73 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - Tami
   type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: eicdhshSrFLCx/sZ1PSpuKyoVWGZpU95tFS4iGC1c04=
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 02 - Tami
+  type: ss
   server: 46.17.45.31
   port: 50660
   cipher: aes-256-gcm
   password: bdb313adf74c2ede
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 03 - Tami
+  type: vless
+  server: 104.21.70.223
+  port: 443
+  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/ERYN0G44hia16zhR
+    headers:
+      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 04 - Tami
+  type: vless
+  server: 104.21.16.109
+  port: 443
+  uuid: cc08d2d0-8a7a-4469-81d2-c43704451271
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/6871nrbnl9WsdAiOUInt
+    headers:
+      Host: 9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 05 - Tami
+  type: vless
+  server: 104.19.164.155
+  port: 2083
+  uuid: 532a9115-aee7-4d39-9638-1e5146de075b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: muddy-math-c1fc.tmpnriqueau89.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: muddy-math-c1fc.tmpnriqueau89.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 06 - Tami
+  type: ss
+  server: 194.87.68.140
+  port: 50660
+  cipher: aes-256-gcm
+  password: 81a20429165df87e
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 07 - Tami
+  type: ss
+  server: 46.17.41.166
+  port: 50660
+  cipher: aes-256-gcm
+  password: 895b4b796a357570
   udp: true
 proxy-groups:
 - name: PROXIES
@@ -17,11 +80,23 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 02 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 03 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 04 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 05 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 06 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 07 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 02 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 03 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 04 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 05 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 06 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 07 - Tami
 rules:
 - MATCH,PROXIES
