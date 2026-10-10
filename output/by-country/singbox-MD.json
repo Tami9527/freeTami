@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇲🇩 MD 01 - Tami",
+        "🇲🇩 MD 02 - Tami",
+        "🇲🇩 MD 03 - Tami",
+        "🇲🇩 MD 04 - Tami",
+        "🇲🇩 MD 05 - Tami",
+        "🇲🇩 MD 06 - Tami",
+        "🇲🇩 MD 07 - Tami",
+        "🇲🇩 MD 08 - Tami",
+        "🇲🇩 MD 09 - Tami",
+        "🇲🇩 MD 10 - Tami",
+        "🇲🇩 MD 11 - Tami",
+        "🇲🇩 MD 12 - Tami",
+        "🇲🇩 MD 13 - Tami",
+        "🇲🇩 MD 14 - Tami",
+        "🇲🇩 MD 15 - Tami"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇲🇩 MD 01 - Tami",
+        "🇲🇩 MD 02 - Tami",
+        "🇲🇩 MD 03 - Tami",
+        "🇲🇩 MD 04 - Tami",
+        "🇲🇩 MD 05 - Tami",
+        "🇲🇩 MD 06 - Tami",
+        "🇲🇩 MD 07 - Tami",
+        "🇲🇩 MD 08 - Tami",
+        "🇲🇩 MD 09 - Tami",
+        "🇲🇩 MD 10 - Tami",
+        "🇲🇩 MD 11 - Tami",
+        "🇲🇩 MD 12 - Tami",
+        "🇲🇩 MD 13 - Tami",
+        "🇲🇩 MD 14 - Tami",
+        "🇲🇩 MD 15 - Tami"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
