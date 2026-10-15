@@ -6,24 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇦 UA 01 - Tami",
-        "🇺🇦 UA 02 - Tami",
-        "🇺🇦 UA 03 - Tami",
-        "🇺🇦 UA 04 - Tami",
-        "🇺🇦 UA 05 - Tami",
-        "🇺🇦 UA 06 - Tami"
+        "🇲🇽 MX 01 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 UA 01 - Tami",
-        "🇺🇦 UA 02 - Tami",
-        "🇺🇦 UA 03 - Tami",
-        "🇺🇦 UA 04 - Tami",
-        "🇺🇦 UA 05 - Tami",
-        "🇺🇦 UA 06 - Tami"
+        "🇲🇽 MX 01 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },

@@ -22,7 +22,7 @@ proxies:
   reality-opts:
     public-key: ErmbQFm-toukc_-s7geF1w7pJggmrIq9XiT55sjRNHc
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 03 - Tami
   type: ss
   server: 89.125.103.208
