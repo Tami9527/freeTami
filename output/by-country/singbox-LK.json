@@ -6,14 +6,28 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 LK 01 - Tami"
+        "🇱🇰 LK 01 - Tami",
+        "🇱🇰 LK 02 - Tami",
+        "🇱🇰 LK 03 - Tami",
+        "🇱🇰 LK 04 - Tami",
+        "🇱🇰 LK 05 - Tami",
+        "🇱🇰 LK 06 - Tami",
+        "🇱🇰 LK 07 - Tami",
+        "🇱🇰 LK 08 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 LK 01 - Tami"
+        "🇱🇰 LK 01 - Tami",
+        "🇱🇰 LK 02 - Tami",
+        "🇱🇰 LK 03 - Tami",
+        "🇱🇰 LK 04 - Tami",
+        "🇱🇰 LK 05 - Tami",
+        "🇱🇰 LK 06 - Tami",
+        "🇱🇰 LK 07 - Tami",
+        "🇱🇰 LK 08 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
