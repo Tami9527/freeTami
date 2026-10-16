@@ -26,6 +26,14 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇦🇹 AT 04 - Tami
+  type: vless
+  server: 138.124.90.177
+  port: 10443
+  uuid: 3a0e4040-67cc-43e0-a9fb-98e15ddb0526
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -34,6 +42,7 @@ proxy-groups:
   - 🇦🇹 AT 01 - Tami
   - 🇦🇹 AT 02 - Tami
   - 🇦🇹 AT 03 - Tami
+  - 🇦🇹 AT 04 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -42,5 +51,6 @@ proxy-groups:
   - 🇦🇹 AT 01 - Tami
   - 🇦🇹 AT 02 - Tami
   - 🇦🇹 AT 03 - Tami
+  - 🇦🇹 AT 04 - Tami
 rules:
 - MATCH,PROXIES
