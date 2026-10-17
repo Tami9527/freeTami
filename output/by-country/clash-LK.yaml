@@ -6,33 +6,7 @@ log-level: info
 proxies:
 - name: 🇱🇰 LK 01 - Tami
   type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 02 - Tami
-  type: vless
-  server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 03 - Tami
-  type: vless
-  server: free.sahanwickramasinghe.me
+  server: centurylink.es
   port: 8443
   uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
   udp: true
@@ -44,7 +18,7 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 04 - Tami
+- name: 🇱🇰 LK 02 - Tami
   type: vless
   server: centurylink.es
   port: 8443
@@ -58,7 +32,7 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 05 - Tami
+- name: 🇱🇰 LK 03 - Tami
   type: vless
   server: support.zoom.us
   port: 80
@@ -66,6 +40,34 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 04 - Tami
+  type: vless
+  server: 104.17.70.206
+  port: 8443
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 05 - Tami
+  type: vless
+  server: 104.17.74.206
+  port: 8443
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
   network: ws
   ws-opts:
     path: /
@@ -100,13 +102,93 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 08 - Tami
   type: vless
-  server: centurylink.es
+  server: support.zoom.us
+  port: 80
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 09 - Tami
+  type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 10 - Tami
+  type: vless
+  server: 104.17.72.206
   port: 8443
   uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
   udp: true
   tls: true
   skip-cert-verify: true
   servername: free.sahanwickramasinghe.me
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 11 - Tami
+  type: vless
+  server: 104.17.73.206
+  port: 8443
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 12 - Tami
+  type: vless
+  server: free.sahanwickramasinghe.me
+  port: 80
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 13 - Tami
+  type: vless
+  server: 104.17.71.206
+  port: 8443
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 14 - Tami
+  type: vless
+  server: free.sahanwickramasinghe.me
+  port: 80
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /
@@ -125,6 +207,12 @@ proxy-groups:
   - 🇱🇰 LK 06 - Tami
   - 🇱🇰 LK 07 - Tami
   - 🇱🇰 LK 08 - Tami
+  - 🇱🇰 LK 09 - Tami
+  - 🇱🇰 LK 10 - Tami
+  - 🇱🇰 LK 11 - Tami
+  - 🇱🇰 LK 12 - Tami
+  - 🇱🇰 LK 13 - Tami
+  - 🇱🇰 LK 14 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -138,5 +226,11 @@ proxy-groups:
   - 🇱🇰 LK 06 - Tami
   - 🇱🇰 LK 07 - Tami
   - 🇱🇰 LK 08 - Tami
+  - 🇱🇰 LK 09 - Tami
+  - 🇱🇰 LK 10 - Tami
+  - 🇱🇰 LK 11 - Tami
+  - 🇱🇰 LK 12 - Tami
+  - 🇱🇰 LK 13 - Tami
+  - 🇱🇰 LK 14 - Tami
 rules:
 - MATCH,PROXIES

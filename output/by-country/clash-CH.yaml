@@ -17,19 +17,12 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇨🇭 CH 02 - Tami
-  type: vless
-  server: 185.18.250.245
-  port: 443
-  uuid: f77299ea-e13d-417d-8cdc-ce5566dfc94b
+  type: ss
+  server: 86.106.84.194
+  port: 13261
+  cipher: aes-128-gcm
+  password: 2bf536a4bd6008511734a505d248de2c
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edu.ruangguru.com.r3xxe.eu.cc
-  network: ws
-  ws-opts:
-    path: /nl-tw
-    headers:
-      Host: edu.ruangguru.com.r3xxe.eu.cc
 - name: 🇨🇭 CH 03 - Tami
   type: vless
   server: 208.69.78.217
@@ -41,7 +34,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇨🇭 CH 04 - Tami
   type: ss
   server: 132.243.175.144
@@ -50,39 +43,6 @@ proxies:
   password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
 - name: 🇨🇭 CH 05 - Tami
-  type: ss
-  server: 86.106.84.194
-  port: 13261
-  cipher: aes-128-gcm
-  password: 2bf536a4bd6008511734a505d248de2c
-  udp: true
-- name: 🇨🇭 CH 06 - Tami
-  type: vless
-  server: 54.178.110.17
-  port: 4443
-  uuid: d5fbd83b-7346-4ad9-94c0-76293724824d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-- name: 🇨🇭 CH 07 - Tami
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇨🇭 CH 08 - Tami
   type: ss
   server: 132.243.175.144
   port: 8388
@@ -99,9 +59,6 @@ proxy-groups:
   - 🇨🇭 CH 03 - Tami
   - 🇨🇭 CH 04 - Tami
   - 🇨🇭 CH 05 - Tami
-  - 🇨🇭 CH 06 - Tami
-  - 🇨🇭 CH 07 - Tami
-  - 🇨🇭 CH 08 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -112,8 +69,5 @@ proxy-groups:
   - 🇨🇭 CH 03 - Tami
   - 🇨🇭 CH 04 - Tami
   - 🇨🇭 CH 05 - Tami
-  - 🇨🇭 CH 06 - Tami
-  - 🇨🇭 CH 07 - Tami
-  - 🇨🇭 CH 08 - Tami
 rules:
 - MATCH,PROXIES
