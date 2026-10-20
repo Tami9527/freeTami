@@ -6,16 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇻🇳 VN 01 - Tami",
-        "🇻🇳 VN 02 - Tami"
+        "🇨🇭 CH 01 - Tami",
+        "🇨🇭 CH 02 - Tami",
+        "🇨🇭 CH 03 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇻🇳 VN 01 - Tami",
-        "🇻🇳 VN 02 - Tami"
+        "🇨🇭 CH 01 - Tami",
+        "🇨🇭 CH 02 - Tami",
+        "🇨🇭 CH 03 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
