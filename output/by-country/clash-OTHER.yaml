@@ -19,22 +19,24 @@ proxies:
     headers:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 02 - Tami
-  type: vless
-  server: 104.21.221.158
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  type: vmess
+  server: 104.17.77.77
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: v2ray1.dozapp.xyz
   network: ws
   ws-opts:
-    path: /fp=unsafe
+    path: /lMnsZUN4/
     headers:
-      Host: ccc.010304.xyz
+      Host: v2ray1.dozapp.xyz
 - name: 🌐 其他地区 (Other) 03 - Tami
   type: vless
-  server: 172.64.146.66
+  server: cf.090227.xyz
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -48,7 +50,7 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 04 - Tami
   type: vless
-  server: 104.18.47.73
+  server: 172.64.146.66
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -57,24 +59,37 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 05 - Tami
   type: vless
-  server: 104.21.5.128
-  port: 2053
-  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  server: 104.18.35.86
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 06 - Tami
+  type: vless
+  server: 104.16.10.104
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: uwu.blueknightnet.qzz.io
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    path: /tyxyws
     headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🌐 其他地区 (Other) 06 - Tami
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 07 - Tami
   type: vless
   server: cf.877774.xyz
   port: 443
@@ -88,203 +103,7 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 07 - Tami
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 08 - Tami
-  type: vless
-  server: 104.18.35.15
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 09 - Tami
-  type: vless
-  server: 104.16.10.22
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 10 - Tami
-  type: vless
-  server: 104.17.181.223
-  port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tamoai.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
-    headers:
-      Host: tamoai.ccwu.cc
-- name: 🌐 其他地区 (Other) 11 - Tami
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 12 - Tami
-  type: vless
-  server: 104.18.40.100
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 13 - Tami
-  type: vless
-  server: 104.17.97.13
-  port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tamoai.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
-    headers:
-      Host: tamoai.ccwu.cc
-- name: 🌐 其他地区 (Other) 14 - Tami
-  type: vless
-  server: 172.67.195.79
-  port: 2053
-  uuid: fc6e7824-c94a-499a-a713-883030381ff5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: uwu.blueknightnet.qzz.io
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🌐 其他地区 (Other) 15 - Tami
-  type: vless
-  server: 172.64.152.241
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 16 - Tami
-  type: vless
-  server: 104.18.153.10
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 17 - Tami
-  type: vless
-  server: 104.16.10.135
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 18 - Tami
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chromefp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 19 - Tami
-  type: vless
-  server: 172.64.153.153
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 20 - Tami
-  type: vless
-  server: 172.67.76.40
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 21 - Tami
   type: vless
   server: 172.64.152.241
   port: 443
@@ -298,20 +117,203 @@ proxies:
     path: /fp
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 22 - Tami
+- name: 🌐 其他地区 (Other) 09 - Tami
   type: vless
-  server: 104.18.39.49
+  server: 8.47.69.60
   port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tamoai.ccwu.cc
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    path: /
     headers:
-      Host: tamoai.ccwu.cc
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 10 - Tami
+  type: vless
+  server: 104.26.4.2
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 11 - Tami
+  type: vless
+  server: 172.64.150.43
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 12 - Tami
+  type: vless
+  server: 104.21.84.167
+  port: 2053
+  uuid: fc6e7824-c94a-499a-a713-883030381ff5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: 🌐 其他地区 (Other) 13 - Tami
+  type: vmess
+  server: 172.67.167.78
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: 🌐 其他地区 (Other) 14 - Tami
+  type: vless
+  server: 104.18.35.15
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 15 - Tami
+  type: vless
+  server: 104.21.221.158
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=unsafe
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 16 - Tami
+  type: vless
+  server: 172.67.76.40
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 17 - Tami
+  type: vless
+  server: 104.17.210.74
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 18 - Tami
+  type: vless
+  server: 104.19.164.155
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 19 - Tami
+  type: vless
+  server: 104.21.94.161
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 20 - Tami
+  type: vless
+  server: 104.18.47.73
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 21 - Tami
+  type: vless
+  server: 104.18.41.190
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 22 - Tami
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 23 - Tami
   type: vless
   server: 8.47.69.60
@@ -328,18 +330,18 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 24 - Tami
   type: vless
-  server: 188.114.98.0
+  server: 172.64.152.241
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /fp=chrome
     headers:
-      Host: jp3.yohototo.top
+      Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 25 - Tami
   type: vless
   server: 104.26.4.2
@@ -356,20 +358,7 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 26 - Tami
   type: vless
-  server: 104.18.35.86
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 27 - Tami
-  type: vless
-  server: 104.17.50.53
+  server: 188.114.97.6
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -381,34 +370,7 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 28 - Tami
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 29 - Tami
-  type: vless
-  server: 172.64.146.66
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 30 - Tami
+- name: 🌐 其他地区 (Other) 27 - Tami
   type: vless
   server: 104.21.221.158
   port: 443
@@ -420,6 +382,48 @@ proxies:
   network: ws
   ws-opts:
     path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 28 - Tami
+  type: vless
+  server: 172.64.153.153
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 29 - Tami
+  type: vless
+  server: 104.18.35.15
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 30 - Tami
+  type: vless
+  server: 104.18.45.38
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp
     headers:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 31 - Tami
@@ -438,130 +442,46 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 32 - Tami
   type: vless
-  server: 172.64.190.13
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 33 - Tami
-  type: vless
-  server: 104.21.221.158
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 34 - Tami
-  type: vless
-  server: 104.21.70.228
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 35 - Tami
-  type: vless
-  server: 104.16.111.202
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 36 - Tami
-  type: vless
-  server: 104.21.94.161
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 37 - Tami
-  type: vless
-  server: 8.47.69.60
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 38 - Tami
-  type: vless
-  server: 104.18.45.38
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 39 - Tami
-  type: vless
-  server: 172.64.150.43
-  port: 8080
+  server: 172.64.150.28
+  port: 2082
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /sg-melbi
+    path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 40 - Tami
+- name: 🌐 其他地区 (Other) 33 - Tami
   type: vless
-  server: 104.19.42.161
+  server: 172.64.146.66
   port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tamoai.ccwu.cc
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    path: /
     headers:
-      Host: tamoai.ccwu.cc
-- name: 🌐 其他地区 (Other) 41 - Tami
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 34 - Tami
+  type: vless
+  server: 172.67.133.118
+  port: 2053
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: 🌐 其他地区 (Other) 35 - Tami
   type: vless
   server: 104.18.45.38
   port: 443
@@ -575,23 +495,9 @@ proxies:
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 42 - Tami
+- name: 🌐 其他地区 (Other) 36 - Tami
   type: vless
-  server: 172.64.151.190
-  port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tamoai.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
-    headers:
-      Host: tamoai.ccwu.cc
-- name: 🌐 其他地区 (Other) 43 - Tami
-  type: vless
-  server: 104.18.35.15
+  server: 104.18.40.100
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -603,35 +509,21 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 44 - Tami
+- name: 🌐 其他地区 (Other) 37 - Tami
   type: vless
-  server: 104.26.4.2
+  server: 104.16.111.202
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /
+    path: /tyxyws
     headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 45 - Tami
-  type: vless
-  server: 104.21.84.167
-  port: 2053
-  uuid: fc6e7824-c94a-499a-a713-883030381ff5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: uwu.blueknightnet.qzz.io
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🌐 其他地区 (Other) 46 - Tami
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 38 - Tami
   type: vless
   server: 172.64.152.241
   port: 443
@@ -645,23 +537,9 @@ proxies:
     path: /fp
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 47 - Tami
+- name: 🌐 其他地区 (Other) 39 - Tami
   type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 48 - Tami
-  type: vless
-  server: 104.18.41.190
+  server: 104.21.221.158
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -670,7 +548,35 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 40 - Tami
+  type: vless
+  server: 172.67.195.79
+  port: 2053
+  uuid: fc6e7824-c94a-499a-a713-883030381ff5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: 🌐 其他地区 (Other) 41 - Tami
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chromefp=chrome
     headers:
       Host: ccc.010304.xyz
 proxy-groups:
@@ -719,13 +625,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 39 - Tami
   - 🌐 其他地区 (Other) 40 - Tami
   - 🌐 其他地区 (Other) 41 - Tami
-  - 🌐 其他地区 (Other) 42 - Tami
-  - 🌐 其他地区 (Other) 43 - Tami
-  - 🌐 其他地区 (Other) 44 - Tami
-  - 🌐 其他地区 (Other) 45 - Tami
-  - 🌐 其他地区 (Other) 46 - Tami
-  - 🌐 其他地区 (Other) 47 - Tami
-  - 🌐 其他地区 (Other) 48 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -772,12 +671,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 39 - Tami
   - 🌐 其他地区 (Other) 40 - Tami
   - 🌐 其他地区 (Other) 41 - Tami
-  - 🌐 其他地区 (Other) 42 - Tami
-  - 🌐 其他地区 (Other) 43 - Tami
-  - 🌐 其他地区 (Other) 44 - Tami
-  - 🌐 其他地区 (Other) 45 - Tami
-  - 🌐 其他地区 (Other) 46 - Tami
-  - 🌐 其他地区 (Other) 47 - Tami
-  - 🌐 其他地区 (Other) 48 - Tami
 rules:
 - MATCH,PROXIES
