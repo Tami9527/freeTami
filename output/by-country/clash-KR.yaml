@@ -7,9 +7,9 @@ proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - Tami
   type: ss
   server: 141.164.45.187
-  port: 6679
+  port: 5498
   cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
+  password: lGqs95QkFHo2NV
   udp: true
 - name: 🇰🇷 韩国 (South Korea) 02 - Tami
   type: vless
@@ -22,7 +22,7 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇰🇷 韩国 (South Korea) 03 - Tami
   type: vless
   server: 151.245.106.49
@@ -34,7 +34,7 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇰🇷 韩国 (South Korea) 04 - Tami
   type: vless
   server: 151.245.106.49
@@ -46,22 +46,8 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇰🇷 韩国 (South Korea) 05 - Tami
-  type: ss
-  server: 141.164.45.187
-  port: 5498
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 06 - Tami
-  type: ss
-  server: 141.164.45.187
-  port: 9090
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 07 - Tami
   type: vless
   server: 151.245.106.49
   port: 2053
@@ -73,14 +59,13 @@ proxies:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
   client-fingerprint: random
-- name: 🇰🇷 韩国 (South Korea) 08 - Tami
-  type: vless
-  server: 112.169.175.199
-  port: 31157
-  uuid: bd2fb303-b4c7-49af-a8e3-5c6f11b005dd
+- name: 🇰🇷 韩国 (South Korea) 06 - Tami
+  type: ss
+  server: 141.164.45.187
+  port: 9090
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
   udp: true
-  tls: false
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -92,8 +77,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 04 - Tami
   - 🇰🇷 韩国 (South Korea) 05 - Tami
   - 🇰🇷 韩国 (South Korea) 06 - Tami
-  - 🇰🇷 韩国 (South Korea) 07 - Tami
-  - 🇰🇷 韩国 (South Korea) 08 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -105,7 +88,5 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 04 - Tami
   - 🇰🇷 韩国 (South Korea) 05 - Tami
   - 🇰🇷 韩国 (South Korea) 06 - Tami
-  - 🇰🇷 韩国 (South Korea) 07 - Tami
-  - 🇰🇷 韩国 (South Korea) 08 - Tami
 rules:
 - MATCH,PROXIES
