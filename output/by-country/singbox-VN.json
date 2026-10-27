@@ -6,24 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇭 PH 01 - Tami",
-        "🇵🇭 PH 02 - Tami",
-        "🇵🇭 PH 03 - Tami",
-        "🇵🇭 PH 04 - Tami",
-        "🇵🇭 PH 05 - Tami",
-        "🇵🇭 PH 06 - Tami"
+        "🇻🇳 VN 01 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇭 PH 01 - Tami",
-        "🇵🇭 PH 02 - Tami",
-        "🇵🇭 PH 03 - Tami",
-        "🇵🇭 PH 04 - Tami",
-        "🇵🇭 PH 05 - Tami",
-        "🇵🇭 PH 06 - Tami"
+        "🇻🇳 VN 01 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
