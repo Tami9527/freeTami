@@ -6,16 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇷 IR 01 - Tami",
-        "🇮🇷 IR 02 - Tami"
+        "🇨🇳 CN 01 - Tami",
+        "🇨🇳 CN 02 - Tami",
+        "🇨🇳 CN 03 - Tami",
+        "🇨🇳 CN 04 - Tami",
+        "🇨🇳 CN 05 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇷 IR 01 - Tami",
-        "🇮🇷 IR 02 - Tami"
+        "🇨🇳 CN 01 - Tami",
+        "🇨🇳 CN 02 - Tami",
+        "🇨🇳 CN 03 - Tami",
+        "🇨🇳 CN 04 - Tami",
+        "🇨🇳 CN 05 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
