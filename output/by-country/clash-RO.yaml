@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇷🇴 RO 01 - Tami
   type: vless
-  server: 155.117.5.208
+  server: edge10.cyrionflare.com
   port: 2052
   uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
   udp: true
@@ -21,12 +21,37 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇷🇴 RO 03 - Tami
-  type: ss
-  server: 154.46.31.106
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
+  type: vless
+  server: 178.83.45.226
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
   udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇷🇴 RO 04 - Tami
+  type: vless
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇷🇴 RO 05 - Tami
+  type: vless
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇷🇴 RO 06 - Tami
+  type: vless
+  server: 155.117.5.208
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -35,6 +60,9 @@ proxy-groups:
   - 🇷🇴 RO 01 - Tami
   - 🇷🇴 RO 02 - Tami
   - 🇷🇴 RO 03 - Tami
+  - 🇷🇴 RO 04 - Tami
+  - 🇷🇴 RO 05 - Tami
+  - 🇷🇴 RO 06 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -43,5 +71,8 @@ proxy-groups:
   - 🇷🇴 RO 01 - Tami
   - 🇷🇴 RO 02 - Tami
   - 🇷🇴 RO 03 - Tami
+  - 🇷🇴 RO 04 - Tami
+  - 🇷🇴 RO 05 - Tami
+  - 🇷🇴 RO 06 - Tami
 rules:
 - MATCH,PROXIES
