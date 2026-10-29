@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇺 澳大利亚 (Australia) 01 - Tami"
+        "🇦🇺 澳大利亚 (Australia) 01 - Tami",
+        "🇦🇺 澳大利亚 (Australia) 02 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇺 澳大利亚 (Australia) 01 - Tami"
+        "🇦🇺 澳大利亚 (Australia) 01 - Tami",
+        "🇦🇺 澳大利亚 (Australia) 02 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
