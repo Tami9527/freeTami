@@ -5,6 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - Tami
+  type: ss
+  server: 132.243.175.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  udp: true
+- name: 🇨🇭 CH 02 - Tami
+  type: ss
+  server: 132.243.175.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  udp: true
+- name: 🇨🇭 CH 03 - Tami
   type: vless
   server: 208.69.78.217
   port: 2053
@@ -16,7 +30,21 @@ proxies:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
   client-fingerprint: random
-- name: 🇨🇭 CH 02 - Tami
+- name: 🇨🇭 CH 04 - Tami
+  type: vless
+  server: 83.147.216.223
+  port: 4433
+  uuid: b491331e-3be5-4097-8bc1-fa86de978c29
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+- name: 🇨🇭 CH 05 - Tami
   type: vless
   server: 208.69.78.217
   port: 2053
@@ -28,21 +56,43 @@ proxies:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇨🇭 CH 03 - Tami
-  type: ss
-  server: 132.243.175.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+- name: 🇨🇭 CH 06 - Tami
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
   udp: true
-- name: 🇨🇭 CH 04 - Tami
-  type: ss
-  server: 132.243.175.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇨🇭 CH 07 - Tami
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
   udp: true
-- name: 🇨🇭 CH 05 - Tami
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇨🇭 CH 08 - Tami
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇨🇭 CH 09 - Tami
   type: vless
   server: 149.33.15.213
   port: 443
@@ -61,6 +111,10 @@ proxy-groups:
   - 🇨🇭 CH 03 - Tami
   - 🇨🇭 CH 04 - Tami
   - 🇨🇭 CH 05 - Tami
+  - 🇨🇭 CH 06 - Tami
+  - 🇨🇭 CH 07 - Tami
+  - 🇨🇭 CH 08 - Tami
+  - 🇨🇭 CH 09 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -71,5 +125,9 @@ proxy-groups:
   - 🇨🇭 CH 03 - Tami
   - 🇨🇭 CH 04 - Tami
   - 🇨🇭 CH 05 - Tami
+  - 🇨🇭 CH 06 - Tami
+  - 🇨🇭 CH 07 - Tami
+  - 🇨🇭 CH 08 - Tami
+  - 🇨🇭 CH 09 - Tami
 rules:
 - MATCH,PROXIES
