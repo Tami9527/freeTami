@@ -6,24 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 CZ 01 - Tami",
-        "🇨🇿 CZ 02 - Tami",
-        "🇨🇿 CZ 03 - Tami",
-        "🇨🇿 CZ 04 - Tami",
-        "🇨🇿 CZ 05 - Tami",
-        "🇨🇿 CZ 06 - Tami"
+        "🇷🇺 俄罗斯 (Russia) 01 - Tami"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - Tami",
-        "🇨🇿 CZ 02 - Tami",
-        "🇨🇿 CZ 03 - Tami",
-        "🇨🇿 CZ 04 - Tami",
-        "🇨🇿 CZ 05 - Tami",
-        "🇨🇿 CZ 06 - Tami"
+        "🇷🇺 俄罗斯 (Russia) 01 - Tami"
       ],
       "url": "https://www.google.com/generate_204"
     },
