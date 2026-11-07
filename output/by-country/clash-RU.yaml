@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - Tami
   type: vless
-  server: xsru2.freeddns.org
+  server: 185.86.147.175
   port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xsru2.freeddns.org
+  servername: bhjolq0d0l.flowersgood.top
   network: ws
   ws-opts:
-    path: /wsru
+    path: /service/telemetry/045d381f1166/
     headers:
-      Host: xsru2.freeddns.org
+      Host: bhjolq0d0l.flowersgood.top
 - name: 🇷🇺 俄罗斯 (Russia) 02 - Tami
   type: vless
   server: 185.86.147.175
@@ -33,6 +33,34 @@ proxies:
     headers:
       Host: bhjolq0d0l.flowersgood.top
 - name: 🇷🇺 俄罗斯 (Russia) 03 - Tami
+  type: vless
+  server: xsru2.freeddns.org
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xsru2.freeddns.org
+  network: ws
+  ws-opts:
+    path: /wsru
+    headers:
+      Host: xsru2.freeddns.org
+- name: 🇷🇺 俄罗斯 (Russia) 04 - Tami
+  type: vless
+  server: 185.86.147.175
+  port: 443
+  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bhjolq0d0l.flowersgood.top
+  network: ws
+  ws-opts:
+    path: /service/telemetry/045d381f1166/
+    headers:
+      Host: bhjolq0d0l.flowersgood.top
+- name: 🇷🇺 俄罗斯 (Russia) 05 - Tami
   type: ss
   server: 46.17.47.58
   port: 18443
@@ -47,6 +75,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - Tami
   - 🇷🇺 俄罗斯 (Russia) 02 - Tami
   - 🇷🇺 俄罗斯 (Russia) 03 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 04 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 05 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -55,5 +85,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - Tami
   - 🇷🇺 俄罗斯 (Russia) 02 - Tami
   - 🇷🇺 俄罗斯 (Russia) 03 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 04 - Tami
+  - 🇷🇺 俄罗斯 (Russia) 05 - Tami
 rules:
 - MATCH,PROXIES
