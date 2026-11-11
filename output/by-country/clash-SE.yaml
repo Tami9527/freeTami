@@ -5,26 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 SE 01 - Tami
-  type: vless
-  server: 5.178.109.174
-  port: 14430
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
-- name: 🇸🇪 SE 02 - Tami
   type: ss
   server: 138.199.55.243
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇸🇪 SE 03 - Tami
+- name: 🇸🇪 SE 02 - Tami
   type: vless
   server: 193.188.21.253
   port: 14430
@@ -37,10 +24,34 @@ proxies:
     path: /vless
     headers:
       Host: 193.188.21.253
+- name: 🇸🇪 SE 03 - Tami
+  type: vmess
+  server: 138.199.55.230
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
 - name: 🇸🇪 SE 04 - Tami
   type: vless
-  server: 138.124.49.108
-  port: 8443
+  server: 5.178.109.174
+  port: 14430
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+- name: 🇸🇪 SE 05 - Tami
+  type: vless
+  server: 45.83.182.80
+  port: 443
   uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   udp: true
   tls: true
@@ -48,9 +59,30 @@ proxies:
   servername: fs.qicai99.com
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: fs.qicai99.com
+- name: 🇸🇪 SE 06 - Tami
+  type: vless
+  server: 45.83.182.80
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fs.qicai99.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fs.qicai99.com
+- name: 🇸🇪 SE 07 - Tami
+  type: ss
+  server: 70.34.212.124
+  port: 8388
+  cipher: aes-256-gcm
+  password: AxIYWtskJWIIaefW
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -60,6 +92,9 @@ proxy-groups:
   - 🇸🇪 SE 02 - Tami
   - 🇸🇪 SE 03 - Tami
   - 🇸🇪 SE 04 - Tami
+  - 🇸🇪 SE 05 - Tami
+  - 🇸🇪 SE 06 - Tami
+  - 🇸🇪 SE 07 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -69,5 +104,8 @@ proxy-groups:
   - 🇸🇪 SE 02 - Tami
   - 🇸🇪 SE 03 - Tami
   - 🇸🇪 SE 04 - Tami
+  - 🇸🇪 SE 05 - Tami
+  - 🇸🇪 SE 06 - Tami
+  - 🇸🇪 SE 07 - Tami
 rules:
 - MATCH,PROXIES
