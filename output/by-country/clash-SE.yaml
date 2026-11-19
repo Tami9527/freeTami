@@ -19,16 +19,18 @@ proxies:
       Host: 5.178.109.174
 - name: 🇸🇪 SE 02 - Tami
   type: vless
-  server: 88.216.60.73
+  server: 92.223.84.254
   port: 443
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  uuid: 740b2630-b42d-425c-bacd-37e7e30d78f1
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-  servername: ns-api-gw.galioncc.com
-  client-fingerprint: firefox
+  servername: subgift.gcorecdn.com
+  network: ws
+  ws-opts:
+    path: /t.me-SubGift
+    headers:
+      Host: subgift.gcorecdn.com
 - name: 🇸🇪 SE 03 - Tami
   type: vless
   server: 88.216.60.73
@@ -42,17 +44,6 @@ proxies:
   servername: ns-api-gw.galioncc.com
   client-fingerprint: firefox
 - name: 🇸🇪 SE 04 - Tami
-  type: vmess
-  server: 138.199.55.230
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xmfhlpy.com
-- name: 🇸🇪 SE 05 - Tami
   type: vless
   server: 92.223.84.254
   port: 443
@@ -66,6 +57,18 @@ proxies:
     path: /t.me-SubGift
     headers:
       Host: subgift.gcorecdn.com
+- name: 🇸🇪 SE 05 - Tami
+  type: vless
+  server: 88.216.60.73
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+  servername: ns-api-gw.galioncc.com
+  client-fingerprint: firefox
 - name: 🇸🇪 SE 06 - Tami
   type: ss
   server: 138.199.55.243
@@ -87,6 +90,17 @@ proxies:
     path: /t.me-SubGift
     headers:
       Host: subgift.gcorecdn.com
+- name: 🇸🇪 SE 08 - Tami
+  type: vmess
+  server: 138.199.55.230
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xmfhlpy.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -99,6 +113,7 @@ proxy-groups:
   - 🇸🇪 SE 05 - Tami
   - 🇸🇪 SE 06 - Tami
   - 🇸🇪 SE 07 - Tami
+  - 🇸🇪 SE 08 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -111,5 +126,6 @@ proxy-groups:
   - 🇸🇪 SE 05 - Tami
   - 🇸🇪 SE 06 - Tami
   - 🇸🇪 SE 07 - Tami
+  - 🇸🇪 SE 08 - Tami
 rules:
 - MATCH,PROXIES
