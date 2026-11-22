@@ -6,194 +6,19 @@ log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - Tami
   type: vless
-  server: 104.19.164.155
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 02 - Tami
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 03 - Tami
-  type: vless
-  server: 104.16.111.102
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 04 - Tami
-  type: vless
-  server: 162.159.254.3
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 05 - Tami
-  type: ss
-  server: 84.247.155.196
-  port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 06 - Tami
-  type: vless
-  server: 104.16.10.84
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 07 - Tami
-  type: vless
-  server: 104.21.34.106
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 08 - Tami
-  type: vless
-  server: 162.159.254.3
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 09 - Tami
-  type: vless
-  server: 45.153.245.217
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 10 - Tami
-  type: vless
   server: 188.114.98.0
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: freeceshi6.frii.site
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
     headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 11 - Tami
-  type: vless
-  server: 104.18.153.10
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 12 - Tami
-  type: vless
-  server: 104.18.42.98
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 13 - Tami
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 14 - Tami
-  type: vless
-  server: 104.16.111.202
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 15 - Tami
+      Host: freeceshi6.frii.site
+- name: 🇯🇵 日本 (Japan) 02 - Tami
   type: vless
   server: 172.64.154.113
   port: 8443
@@ -207,84 +32,118 @@ proxies:
     path: /proxyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: freeceshi6.frii.site
-- name: 🇯🇵 日本 (Japan) 16 - Tami
+- name: 🇯🇵 日本 (Japan) 03 - Tami
+  type: ss
+  server: 149.22.87.240
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 04 - Tami
+  type: vless
+  server: 103.201.130.126
+  port: 443
+  uuid: 39303679-4e68-4233-8def-8f4f9e48d611
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tt-9nz.pages.dev
+  network: ws
+  ws-opts:
+    path: /item/favouritesfp=chrome
+    headers:
+      Host: tt-9nz.pages.dev
+- name: 🇯🇵 日本 (Japan) 05 - Tami
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 06 - Tami
   type: ss
   server: 149.22.87.241
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇯🇵 日本 (Japan) 17 - Tami
-  type: vless
-  server: 172.67.217.240
+- name: 🇯🇵 日本 (Japan) 07 - Tami
+  type: ss
+  server: 149.22.87.204
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 08 - Tami
+  type: vless
+  server: 94.177.131.113
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 18 - Tami
+  servername: kuruish.org
+- name: 🇯🇵 日本 (Japan) 09 - Tami
+  type: ss
+  server: 84.247.155.196
+  port: 80
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 10 - Tami
+  type: ss
+  server: 84.247.155.196
+  port: 80
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 11 - Tami
   type: vless
-  server: 104.24.0.1
+  server: 94.177.131.113
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 19 - Tami
-  type: vless
-  server: 104.24.0.1
+  servername: 94.177.131.113
+- name: 🇯🇵 日本 (Japan) 12 - Tami
+  type: ss
+  server: 149.22.87.241
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 13 - Tami
+  type: ss
+  server: 84.247.155.196
+  port: 443
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 14 - Tami
+  type: vless
+  server: 94.177.131.113
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 20 - Tami
+  servername: kuruish.org
+- name: 🇯🇵 日本 (Japan) 15 - Tami
   type: vless
-  server: 152.69.200.216
+  server: 188.114.98.0
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: freeceshi6.frii.site
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
     headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 21 - Tami
-  type: vless
-  server: 154.40.36.220
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 22 - Tami
+      Host: freeceshi6.frii.site
+- name: 🇯🇵 日本 (Japan) 16 - Tami
   type: vless
   server: 103.201.130.126
   port: 443
@@ -298,209 +157,9 @@ proxies:
     path: /item/favourites
     headers:
       Host: tt-9nz.pages.dev
-- name: 🇯🇵 日本 (Japan) 23 - Tami
-  type: vless
-  server: 43.170.8.95
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 24 - Tami
-  type: vless
-  server: 104.21.219.160
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 25 - Tami
-  type: vless
-  server: 104.16.111.195
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 26 - Tami
-  type: vless
-  server: 104.21.0.87
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 27 - Tami
-  type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 28 - Tami
-  type: vless
-  server: 104.16.10.104
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 29 - Tami
-  type: vless
-  server: 104.21.219.160
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 30 - Tami
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: freeceshi6.frii.site
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: freeceshi6.frii.site
-- name: 🇯🇵 日本 (Japan) 31 - Tami
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: freeceshi6.frii.site
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: freeceshi6.frii.site
-- name: 🇯🇵 日本 (Japan) 32 - Tami
-  type: vless
-  server: 94.177.131.113
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: kuruish.org
-- name: 🇯🇵 日本 (Japan) 33 - Tami
-  type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 34 - Tami
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 35 - Tami
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 36 - Tami
-  type: vless
-  server: 154.31.114.162
-  port: 8443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 37 - Tami
+- name: 🇯🇵 日本 (Japan) 17 - Tami
   type: ss
   server: 149.22.87.240
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 38 - Tami
-  type: ss
-  server: 149.22.87.240
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 39 - Tami
-  type: vless
-  server: 94.177.131.113
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: kuruish.org
-- name: 🇯🇵 日本 (Japan) 40 - Tami
-  type: vless
-  server: 104.17.50.53
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 41 - Tami
-  type: ss
-  server: 149.22.87.241
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
@@ -527,30 +186,6 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 15 - Tami
   - 🇯🇵 日本 (Japan) 16 - Tami
   - 🇯🇵 日本 (Japan) 17 - Tami
-  - 🇯🇵 日本 (Japan) 18 - Tami
-  - 🇯🇵 日本 (Japan) 19 - Tami
-  - 🇯🇵 日本 (Japan) 20 - Tami
-  - 🇯🇵 日本 (Japan) 21 - Tami
-  - 🇯🇵 日本 (Japan) 22 - Tami
-  - 🇯🇵 日本 (Japan) 23 - Tami
-  - 🇯🇵 日本 (Japan) 24 - Tami
-  - 🇯🇵 日本 (Japan) 25 - Tami
-  - 🇯🇵 日本 (Japan) 26 - Tami
-  - 🇯🇵 日本 (Japan) 27 - Tami
-  - 🇯🇵 日本 (Japan) 28 - Tami
-  - 🇯🇵 日本 (Japan) 29 - Tami
-  - 🇯🇵 日本 (Japan) 30 - Tami
-  - 🇯🇵 日本 (Japan) 31 - Tami
-  - 🇯🇵 日本 (Japan) 32 - Tami
-  - 🇯🇵 日本 (Japan) 33 - Tami
-  - 🇯🇵 日本 (Japan) 34 - Tami
-  - 🇯🇵 日本 (Japan) 35 - Tami
-  - 🇯🇵 日本 (Japan) 36 - Tami
-  - 🇯🇵 日本 (Japan) 37 - Tami
-  - 🇯🇵 日本 (Japan) 38 - Tami
-  - 🇯🇵 日本 (Japan) 39 - Tami
-  - 🇯🇵 日本 (Japan) 40 - Tami
-  - 🇯🇵 日本 (Japan) 41 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -573,29 +208,5 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 15 - Tami
   - 🇯🇵 日本 (Japan) 16 - Tami
   - 🇯🇵 日本 (Japan) 17 - Tami
-  - 🇯🇵 日本 (Japan) 18 - Tami
-  - 🇯🇵 日本 (Japan) 19 - Tami
-  - 🇯🇵 日本 (Japan) 20 - Tami
-  - 🇯🇵 日本 (Japan) 21 - Tami
-  - 🇯🇵 日本 (Japan) 22 - Tami
-  - 🇯🇵 日本 (Japan) 23 - Tami
-  - 🇯🇵 日本 (Japan) 24 - Tami
-  - 🇯🇵 日本 (Japan) 25 - Tami
-  - 🇯🇵 日本 (Japan) 26 - Tami
-  - 🇯🇵 日本 (Japan) 27 - Tami
-  - 🇯🇵 日本 (Japan) 28 - Tami
-  - 🇯🇵 日本 (Japan) 29 - Tami
-  - 🇯🇵 日本 (Japan) 30 - Tami
-  - 🇯🇵 日本 (Japan) 31 - Tami
-  - 🇯🇵 日本 (Japan) 32 - Tami
-  - 🇯🇵 日本 (Japan) 33 - Tami
-  - 🇯🇵 日本 (Japan) 34 - Tami
-  - 🇯🇵 日本 (Japan) 35 - Tami
-  - 🇯🇵 日本 (Japan) 36 - Tami
-  - 🇯🇵 日本 (Japan) 37 - Tami
-  - 🇯🇵 日本 (Japan) 38 - Tami
-  - 🇯🇵 日本 (Japan) 39 - Tami
-  - 🇯🇵 日本 (Japan) 40 - Tami
-  - 🇯🇵 日本 (Japan) 41 - Tami
 rules:
 - MATCH,PROXIES
