@@ -4,31 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇫🇮 FI 01 - Tami
+- name: 🇻🇳 VN 01 - Tami
   type: vless
-  server: mail3.besttotaldns.com
-  port: 443
-  uuid: 18fe142e-1522-47ae-af55-bd8daf6273df
+  server: 150.95.109.109
+  port: 2086
+  uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: mail3.besttotaldns.com
-  network: ws
-  ws-opts:
-    path: /wo9a5v3jcz
-    headers:
-      Host: mail3.besttotaldns.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇫🇮 FI 01 - Tami
+  - 🇻🇳 VN 01 - Tami
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇫🇮 FI 01 - Tami
+  - 🇻🇳 VN 01 - Tami
 rules:
 - MATCH,PROXIES
